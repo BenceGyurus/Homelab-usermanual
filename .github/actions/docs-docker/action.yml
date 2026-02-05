@@ -8,11 +8,11 @@ inputs:
   context:
     description: Docker build context
     required: false
-    default: gyurus-docs
+    default: .
   dockerfile:
     description: Path to Dockerfile
     required: false
-    default: gyurus-docs/Dockerfile
+    default: Dockerfile
 
 runs:
   using: composite
