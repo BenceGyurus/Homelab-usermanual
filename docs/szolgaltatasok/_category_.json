@@ -1,0 +1,8 @@
+{
+  "label": "Szolgáltatások",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Az összes elérhető szolgáltatás használati útmutatója."
+  }
+}

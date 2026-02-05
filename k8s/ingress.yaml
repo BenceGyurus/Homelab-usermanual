@@ -1,0 +1,29 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: gyurus-docs
+  namespace: gyurus-docs
+  annotations:
+    # Traefik (v2) - alap beallitasok
+    traefik.ingress.kubernetes.io/router.entrypoints: web,websecure
+    traefik.ingress.kubernetes.io/router.tls: "true"
+    # Ha van cert-manager, pl.:
+    # cert-manager.io/cluster-issuer: letsencrypt
+spec:
+  ingressClassName: traefik
+  rules:
+    - host: docs.gyurus.hu
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: gyurus-docs
+                port:
+                  name: http
+  # TLS (opcionalis)
+  # tls:
+  #   - hosts:
+  #       - docs.gyurus.hu
+  #     secretName: gyurus-docs-tls

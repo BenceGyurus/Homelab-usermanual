@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gyurus-docs
+  namespace: gyurus-docs
+  labels:
+    app.kubernetes.io/name: gyurus-docs
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: gyurus-docs
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: gyurus-docs
+    spec:
+      # Ha a GHCR image private, torold a kommentet es hozd letre a secretet.
+      # imagePullSecrets:
+      #   - name: ghcr-pull
+      containers:
+        - name: gyurus-docs
+          image: ghcr.io/REPLACE_ME_OWNER/gyurus-docs:REPLACE_ME_TAG
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+            initialDelaySeconds: 3
+            periodSeconds: 10
+            timeoutSeconds: 2
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 20
+            timeoutSeconds: 2
+          resources:
+            requests:
+              cpu: 25m
+              memory: 64Mi
+            limits:
+              cpu: 250m
+              memory: 256Mi
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            runAsNonRoot: true
+            runAsUser: 101
+            runAsGroup: 101
+            capabilities:
+              drop: ["ALL"]
+      securityContext:
+        seccompProfile:
+          type: RuntimeDefault

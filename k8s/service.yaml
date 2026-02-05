@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: gyurus-docs
+  namespace: gyurus-docs
+  labels:
+    app.kubernetes.io/name: gyurus-docs
+spec:
+  selector:
+    app.kubernetes.io/name: gyurus-docs
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
