@@ -1,0 +1,37 @@
+name: gyurus-docs
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/gyurus-docs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build Docusaurus
+        uses: ./.github/actions/docs-build
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name != 'pull_request'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build & push image to GHCR
+        uses: ./.github/actions/docs-docker
+        with:
+          image-name: ${{ env.IMAGE_NAME }}
