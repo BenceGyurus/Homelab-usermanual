@@ -66,6 +66,20 @@ const ServiceList: ServiceItem[] = [
     docPath: '/docs/szolgaltatasok/homeassistant',
     description: <>Lámpák, kapcsolók, automatizálások vezérlése.</>,
   },
+  {
+    title: 'Fiókkezelés (Authentik)',
+    iconSrc: '/img/apps/authentik.svg',
+    url: 'https://auth.gyurus.hu',
+    docPath: '/docs/szolgaltatasok/authentik',
+    description: <>Központi belépés, jelszócsere az összes szolgáltatáshoz.</>,
+  },
+  {
+    title: 'Nyomtató (HP_LaserJet_P1005)',
+    iconSrc: '/img/apps/printer.svg',
+    url: 'http://192.168.1.11',
+    docPath: '/docs/szolgaltatasok/nyomtato',
+    description: <>AirPrint kompatibilis otthoni nyomtató Macen és iOS-en.</>,
+  },
 ];
 
 function ServiceCard({title, iconSrc, url, docPath, description}: ServiceItem) {

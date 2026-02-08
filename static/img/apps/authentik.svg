@@ -1,0 +1,13 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title>Authentik icon</title>
+  <defs>
+    <linearGradient id="authGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a60ff" />
+      <stop offset="100%" stop-color="#7edde9" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="18" fill="url(#authGradient)" />
+  <circle cx="60" cy="55" r="22" fill="#ffffff" opacity="0.9" />
+  <rect x="44" y="55" width="32" height="32" rx="6" fill="#ffffff" />
+  <rect x="54" y="63" width="12" height="12" rx="6" fill="#5a60ff" />
+</svg>
