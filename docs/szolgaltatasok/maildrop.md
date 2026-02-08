@@ -77,3 +77,16 @@ Ha fontos e-mail nem érkezik meg (pl. regisztrációs kód):
 :::info Segítség
 Ha gyakran előfordul, hogy nem jönnek meg a levelek, jelezd, és megnézem a beállításokat!
 :::
+
+## Használat asztali gépen
+
+1. Nyiss meg egy böngészőt (Chrome, Edge, Safari) és menj a `https://maildrop.gyurus.hu` oldalra.
+2. Jelentkezz be Authentikkel.
+3. A bal oldali listában látod a beérkezett e-maileket; kattints a tárgyra a megnyitáshoz.
+4. A levél tetején találod az esetleges kódokat, linkeket. Ha melléklet van, a **Download** gombbal töltheted le.
+5. Ha másolnád az ideiglenes címet, kattints a postaládád neve mellett lévő **Copy address** gombra.
+6. Frissíteni a böngésző frissítés ikonjával vagy `Ctrl/Cmd + R` billentyűvel tudsz – hasznos, ha kódot vársz.
+
+**Tippek böngészőhöz:**
+- Ha több levelet szeretnél egyszerre megnyitni, használj középső gombot vagy `Ctrl/Cmd + kattintás` a listán.
+- Ha rendszeresen használod, pineld ki a fület vagy add könyvjelzőhöz, így egy kattintásra ott a postaládád.

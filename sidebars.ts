@@ -3,6 +3,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   servicesSidebar: [
     'intro',
+    'kezdo-tippek',
     {
       type: 'category',
       label: 'Szolgáltatások',

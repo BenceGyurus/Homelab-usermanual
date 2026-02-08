@@ -86,3 +86,17 @@ Néha pár óra is lehet, mire minden elkészül (letöltés + feliratozás + k�
 :::info Példa
 Ha a "Mintaapák" nem talál semmit, próbáld: "Modern Family"
 :::
+
+## Használat asztali gépen
+
+1. Nyiss meg egy böngészőt (Chrome, Edge, Safari) Macen vagy PC-n, majd lépj a `https://sorozat.gyurus.hu` oldalra.
+2. Jelentkezz be Authentikkel.
+3. A felső keresőmezőbe kezdj el gépelni – már pár karakter után megjelennek a találatok.
+4. A film/sorozat oldalán kattints a **Request** gombra. Sorozatnál választhatod, hogy teljes sorozatot vagy csak bizonyos évadokat kérsz.
+5. A bal oldali menü **Requests** pontjában látod a korábbi kérések állapotát (Requested / Processing / Available).
+6. Ha már elérhető, kattints a címre, és a megjelenő link rögtön átvisz a Jellyfin megfelelő oldalára.
+
+**Tippek böngészőhöz:**
+- Használhatsz böngésző könyvjelzőt vagy pinned tabot, így egy kattintás a Jellyseerr.
+- Ha több címet keresel egymás után, nyisd meg őket új lapon (Ctrl/Cmd + kattintás), így nem vész el a találati lista.
+- A jobb felső értesítés ikon mutatja, ha egy kérésed feldolgozódott – kattintva részletes infót kapsz.

@@ -112,3 +112,17 @@ Pl. "Playback error" vagy "Unable to play":
 :::info Segítség
 Ha gyakran akadozik: szólj nekem, és megnézem a szerver beállításait!
 :::
+
+## Használat asztali gépen (böngészőből)
+
+1. Nyiss meg egy böngészőt (Chrome, Edge, Safari) és látogasd meg: `https://tv.gyurus.hu`.
+2. Lépj be Authentik fiókoddal.
+3. A kezdőképernyő megegyezik az appéval: **Continue Watching**, **Latest Movies**, **Latest Shows** szekciók.
+4. Válassz ki egy címet, kattints a **Play** ikonra; a lejátszás közben a képernyő alján lévő ikonokkal állíthatod a feliratot, hangsávot, minőséget.
+5. A böngészőben is működik az AirPlay / Chromecast ikon (jobb felső sarok), így egyszerűen küldheted TV-re.
+6. Ha sok tabot tartasz nyitva, érdemes a Jellyfin oldalt külön ablakban futtatni – így stabilabban megy a lejátszás.
+
+**Tippek böngészőhöz:**
+- Jobb gombbal a film/sorozat kártyán új fülön nyithatod meg, így a keresés közben sem veszíted el a listát.
+- A `?` billentyű megnyomásával megjelenik a billentyűparancs lista (pause/play = szóköz, ugrás = nyíl gombok).
+- Ha külső feliratot szeretnél, a lejátszóban kattints a **Subtitles → Upload** opcióra, és töltsd fel a `.srt` fájlt.

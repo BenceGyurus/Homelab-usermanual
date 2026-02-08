@@ -91,6 +91,20 @@ Néha ez a legegyszerűbb:
 Ha szeretnéd, hogy egy dokumentum biztosan meglegyen offline is, mentsd a **Fájlok** appba ("Mentés a Fájlokba").
 :::
 
+## Használat asztali gépen (Mac/Windows)
+
+1. Nyiss meg egy böngészőt, és látogasd meg: `https://drive.gyurus.hu`.
+2. Jelentkezz be Authentiken keresztül.
+3. A bal oldali **Libraries** listából válassz könyvtárat, vagy kattints az **+ New library** gombra új tár létrehozásához.
+4. Feltöltéshez kattints a jobb felső **Upload** gombra, majd húzd rá a fájlokat, vagy válaszd ki őket a fájlkezelőből.
+5. Több fájlt egyszerre jelölhetsz ki (Shift vagy Ctrl/Cmd + kattintás), majd a felső sávban **Download** / **Move** / **Delete** lehetőségeket kapsz.
+6. Ha mappát szeretnél létrehozni, a tárban kattints a **New directory** gombra.
+
+**Tippek böngészőhöz:**
+- Nagy fájlokat is felhúzhatsz egyszerűen drag & drop-pal.
+- Ha valakivel megosztanál egy fájlt, jelöld ki, majd kattints a **Share** ikonra; itt jelszót vagy lejárati dátumot is beállíthatsz.
+- A verziók (history) a fájl jobb oldali hárompontos menüjéből érhetők el, így vissza tudsz állni korábbi állapotra.
+
 ## Megosztás családtaggal
 
 1. Nyisd meg a mappát vagy fájlt

@@ -109,3 +109,17 @@ Szólj nekem, és megnézem:
 :::info Segítség
 Ha valami nem működik (pl. egy lámpa nem reagál): küldj képernyőképet a Dashboard-ról és a hibaüzenetről!
 :::
+
+## Használat asztali gépen (böngészőből)
+
+1. Nyiss meg egy böngészőt (Chrome, Edge, Safari) és írd be: `https://home.gyurus.hu`.
+2. Jelentkezz be Authentikkel.
+3. A **Dashboard** ugyanaz, mint az appban: csempék, jelenetek, grafikonok. Egérrel kattints a csempékre a be/ki kapcsoláshoz.
+4. Hosszú kattintás helyett itt azonnal megjelenik a részletes panel (fényerő csúszka, ventilátor sebesség stb.).
+5. Ha szeretnéd, hogy külön ablakban fusson, tedd könyvjelzőbe, vagy Safari/Chrome-ban használd a **Install as app / Add to Dock** funkciót.
+6. A bal oldali menüből elérhetők az automatizálások, beállítások – így asztaliról könnyebb nagyobb módosításokat végezni.
+
+**Tippek böngészőhöz:**
+- Engedélyezd az értesítéseket, így a Mac/PC is szól, ha mozgás vagy riasztás történik.
+- Ha több dashboardod van (pl. "Nappali", "Hálószoba"), a jobb felső legördülővel gyorsan válthatsz köztük.
+- A `c` billentyű lenyomásával megnyílik a parancskereső (Command Palette), ahol név alapján gyorsan megtalálsz érzékelőket, automatizmusokat.

@@ -12,6 +12,7 @@ A Paperless-ngx egy **dokumentumtároló és kereshető archívum**:
 
 - Számlák, garanciajegyek, szerződések, orvosi papírok
 - Beolvasott (scan) dokumentumok feltöltése
+- **Bármilyen PDF-et feltölthetsz** (nem csak telefonnal szkenneltet)
 - **Teljes szövegben kereshető** (OCR) - megtalál egy szót a dokumentumon belül is!
 - Címkézés (tagek), dokumentumtípus, partner (pl. szolgáltató)
 
@@ -70,6 +71,20 @@ Az iPhone-odon beépített **scanner** funkció van! Így használd:
 A beolvasás után érdemes **jól látható nevet** adni a fájlnak, pl. "2024-01-15_Vodafone_szamla.pdf"
 :::
 
+## Használat asztali gépen (Mac/Windows)
+
+1. Nyiss meg egy böngészőt (Chrome, Edge, Safari), és írd be: `https://paperles.gyurus.hu`.
+2. Jelentkezz be Authentikkel.
+3. A felső menüben válaszd az **Upload documents** gombot, majd húzd rá a PDF-eket, képeket, vagy kattints a fájlválasztóhoz.
+4. A jobb oldali panelen egyszerre adhatsz meg címkét, dokumentumtípust, partnert, így nem kell később szerkeszteni.
+5. A böngészőben feltöltött PDF-eket ugyanúgy feldolgozza (OCR), mint a telefonról szkennelt képeket.
+6. Ha sok dokumentumod van egy mappában, jelöld ki mindet (Ctrl/Cmd + A), és egyszerre húzd be – a Paperless sorban feldolgozza.
+
+**Miért jó asztaliról is használni?**
+- Villámgyors drag & drop feltöltés emailben kapott PDF számlákból.
+- A feldolgozás utáni metaadatokat (tagek, típus, partner) nagy képernyőn könnyebb beállítani.
+- A keresőmező azonnal előnézetet mutat, így néhány kulcsszóval megtalálod a keresett szerződést.
+
 ## Keresés és rendezés
 
 ### Keresés
@@ -99,6 +114,7 @@ Ha beírod, hogy "OTP" vagy "Vodafone", sokszor azonnal kidobja a kapcsolódó d
 - Ha tudsz, adj a dokumentumnak értelmes nevet (dátum + szolgáltató + típus)
 - Használj címkéket (pl. "számla", "garancia")
 - Ha valami nagyon fontos, mentsd a PDF-et a Seafile-be is (dupla biztonság)
+ - Az e-mailben kapott PDF-eket közvetlenül a Paperless-be töltsd (nincs szükség újraszkennelésre)
 
 ## Gyakori kérdések
 

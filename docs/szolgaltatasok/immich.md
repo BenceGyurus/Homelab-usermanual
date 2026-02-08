@@ -83,6 +83,20 @@ Ha sok a videó, érdemes először Wi-Fi-n hagyni feltölteni, és közben töl
 Az iPhone időnként "elaltat" appokat a háttérben. Ha azt látod, hogy napokig nem tölt fel, nyisd meg az Immich appot pár percre, és hagyd elöl.
 :::
 
+## Használat asztali gépen (böngészőből)
+
+1. Nyiss meg egy böngészőt (Safari, Chrome, Edge) Macen vagy PC-n, és írd be: `https://photos.gyurus.hu`.
+2. Lépj be Authentik felhasználóddal (e-mail + jelszó).
+3. A bal oldali menüben választhatsz albumot, idővonalat, megosztásokat.
+4. Feltöltéshez kattints jobb felül a **Upload** gombra, vagy egyszerűen húzd rá a képeket/videókat az ablakra.
+5. Több fájlt is kijelölhetsz egyszerre (Shift/Command + kattintás), így gyors a tömeges feltöltés.
+6. Album készítéskor jelöld ki a képeket, majd kattints a felső sávban az **Add to album** gombra.
+
+**Miért jó böngészőből?**
+- Nagy képernyőn könnyebb átnézni és rendszerezni az albumokat.
+- Gyors drag & drop feltöltés akár fényképezőgépről másolt mappákból is.
+- A keresőmező egyben javaslatokat is ad (pl. helyszín, ember neve), így pár másodperc alatt megtalálod, amit keresel.
+
 ## Napi használat
 
 ### Feltöltés ellenőrzése
