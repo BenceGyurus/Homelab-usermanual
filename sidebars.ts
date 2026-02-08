@@ -16,6 +16,8 @@ const sidebars: SidebarsConfig = {
         'szolgaltatasok/paperless',
         'szolgaltatasok/maildrop',
         'szolgaltatasok/homeassistant',
+        'szolgaltatasok/authentik',
+        'szolgaltatasok/nyomtato',
       ],
     },
   ],
