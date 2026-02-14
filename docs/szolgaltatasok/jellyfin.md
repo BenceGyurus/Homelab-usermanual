@@ -32,7 +32,7 @@ Kezdd a **Jellyfin Mobile**-lal. Ha lejátszási hiba vagy felirat gond van, pr�
 ### Első belépés telefonon
 1. Nyisd meg az appot (Jellyfin vagy Swiftfin).
 2. Írd be a szervercímet: `https://tv.gyurus.hu` majd koppints **Connect**.
-3. Az **Authentik** ablakban add meg a regisztrációkor választott felhasználónevedet vagy az e-mail címedet és a jelszavadat.
+3. A Jellyfin saját belépőképernyője jelenik meg – ide írd be ugyanazt a felhasználónevet vagy e-mail címet és jelszót, amit Authentikhez is használsz (nem dob át külön oldalra).
 4. Ha több profil látszik, válaszd a sajátodat.
 
 ### Film vagy sorozat nézése
@@ -62,7 +62,7 @@ Kezdd a **Jellyfin Mobile**-lal. Ha lejátszási hiba vagy felirat gond van, pr�
 1. Nyisd meg a **Google Play Áruházat** az Android TV-n.
 2. Keresd meg a **Jellyfin for Android TV** alkalmazást (színes háromszög ikon), majd telepítsd.
 3. Indítás után válaszd az **Add Server** opciót, írd be: `https://tv.gyurus.hu`, majd kattints **Connect**.
-4. A képernyőn megjelenő Authentik űrlapon add meg a regisztrációkor választott felhasználónevedet vagy az e-mail címedet, valamint a jelszavadat a TV-n látható billentyűzettel.
+4. A TV-n megjelenő bejelentkező mezőkbe közvetlenül írd be az Authentikhez tartozó felhasználónevedet vagy e-mail címedet, illetve a jelszavadat (nem vált át másik oldalra).
 5. Válaszd ki a profilodat – megjelenik a TV-re optimalizált menü (**Folytatás**, **Filmek**, **Sorozatok**).
 6. A távirányító navigációs gyűrűjével mozogj, az OK gombbal indítsd a lejátszást, a vissza gombbal lépj vissza.
 
