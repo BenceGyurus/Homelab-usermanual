@@ -18,18 +18,16 @@ A Maildrop egy **egyszerű webes postaláda-néző**, amit jellemzően ilyenekre
 Hogy pontosan milyen e-mailek jönnek ide, az attól függ, mire lett beállítva. Ha kérdésed van, szólj!
 :::
 
-## Használat iPhone-on (Safari)
+## iOS (telefon/tablet)
 
-Ennek az alkalmazásnak **nincs külön appja** - a böngészőben használd:
-
-1. Nyisd meg Safariban: **[https://maildrop.gyurus.hu](https://maildrop.gyurus.hu)**
-2. Belépés **Authentik**-en keresztül (e-mail + jelszó)
-3. A postaládában válassz ki egy levelet
-4. Nyisd meg a tartalmat
+1. Nyisd meg Safariban: **[https://maildrop.gyurus.hu](https://maildrop.gyurus.hu)**.
+2. Jelentkezz be **Authentik** adatokkal (e-mail + jelszó).
+3. A postaládában koppints a levél tárgyára.
+4. Olvasd el a tartalmat, a kódokat duplán koppintva kijelölheted.
 
 :::tip Mire lesz szükséged?
-- iPhone/iPad és internet
-- A saját családi felhasználód (Authentik belépés)
+- iPhone/iPad internetkapcsolattal
+- Authentik felhasználó
 :::
 
 ### Frissítés (ha nem látod a legújabb levelet)
@@ -47,7 +45,7 @@ Ennek az alkalmazásnak **nincs külön appja** - a böngészőben használd:
 
 <!-- KÉP HELYE: Egy levél megnyitva, ahol látszik a "Download attachment" gomb egy PDF mellékletnél -->
 
-## Gyors elérés: ikon a kezdőképernyőn
+### Gyors ikon a kezdőképernyőn
 
 Ha sokat használod, kiteheted ikonként:
 
@@ -78,15 +76,15 @@ Ha fontos e-mail nem érkezik meg (pl. regisztrációs kód):
 Ha gyakran előfordul, hogy nem jönnek meg a levelek, jelezd, és megnézem a beállításokat!
 :::
 
-## Használat asztali gépen
+## Asztali gép (Mac/PC)
 
-1. Nyiss meg egy böngészőt (Chrome, Edge, Safari) és menj a `https://maildrop.gyurus.hu` oldalra.
+1. Chrome/Edge/Safari böngészőben nyisd meg: `https://maildrop.gyurus.hu`.
 2. Jelentkezz be Authentikkel.
-3. A bal oldali listában látod a beérkezett e-maileket; kattints a tárgyra a megnyitáshoz.
-4. A levél tetején találod az esetleges kódokat, linkeket. Ha melléklet van, a **Download** gombbal töltheted le.
-5. Ha másolnád az ideiglenes címet, kattints a postaládád neve mellett lévő **Copy address** gombra.
-6. Frissíteni a böngésző frissítés ikonjával vagy `Ctrl/Cmd + R` billentyűvel tudsz – hasznos, ha kódot vársz.
+3. Bal oldalt látod a leveleket; kattints a tárgyra a megnyitáshoz.
+4. Mellékletet a **Download** gombbal tölthetsz le, kódokat a tetején találsz.
+5. Az ideiglenes címet a postaláda neve melletti **Copy address** gombbal másolhatod.
+6. Frissítés: böngésző ikonja vagy `Ctrl/Cmd + R` – fontos, ha kódot vársz.
 
-**Tippek böngészőhöz:**
-- Ha több levelet szeretnél egyszerre megnyitni, használj középső gombot vagy `Ctrl/Cmd + kattintás` a listán.
-- Ha rendszeresen használod, pineld ki a fület vagy add könyvjelzőhöz, így egy kattintásra ott a postaládád.
+**Tippek asztali módhoz:**
+- Több levélhez használj `Ctrl/Cmd + kattintás`-t új fülön.
+- Pineld a lapot vagy add könyvjelzőhöz a gyors eléréshez.

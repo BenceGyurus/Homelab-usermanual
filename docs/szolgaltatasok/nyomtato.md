@@ -4,42 +4,51 @@ sidebar_position: 9
 
 # HP_LaserJet_P1005 (Nyomtató)
 
-**IP-cím:** `192.168.1.11`
+**Elérési cím:** `192.168.1.11`  
+🕒 Időtartam: 3 perc | 📱 iPhone/iPad vagy Mac | 📶 Otthoni Wi-Fi | 🔑 Nem kér külön jelszót, csak csatlakozz a hálózatra
 
-## Mire jó?
+:::tip Gyorskártya
+- Mire való? Gyors, fekete-fehér dokumentumnyomtatás otthon.
+- Hol találod? Minden Apple eszköz listázza, ha az otthoni Wi-Fi-n vagy.
+- Mit készíts elő? A dokumentumot, amit nyomtatni szeretnél, és a Wi-Fi kapcsolatot.
+:::
 
-Ez a házi AirPrint nyomtató (HP LaserJet P1005), amelyet minden családtag használhat az otthoni Wi-Fi-re csatlakozva.
+## Mi az AirPrint?
 
-- AirPrint támogatás iPhone/iPad eszközökön
-- Mac gépeken natív nyomtatóként jelenik meg
-- Nem igényel külön jelszót – elég a közös hálózatra csatlakozni
+Az **AirPrint** az Apple beépített nyomtatási rendszere. Ha az iPhone, iPad vagy Mac ugyanarra a Wi-Fi hálózatra kapcsolódik, mint a nyomtató, automatikusan megjelenik a listában – nincs szükség külön driverre vagy appra.
 
-## Nyomtatás MacBookról
+## 3 lépésben
+1. **Csatlakozz a Wi-Fi-re:** ellenőrizd, hogy a telefon/tablet/Mac az otthoni hálózaton van.
+2. **Válaszd ki a nyomtatót:** a megosztás/print menüben válaszd a `HP_LaserJet_P1005 (AirPrint)` eszközt.
+3. **Nyomtasd ki:** állítsd be a példányszámot, majd nyomd meg a **Print** gombot.
 
-1. Kapcsolódj az otthoni Wi-Fi-re.
-2. Nyisd meg a **System Settings** alkalmazást, majd válaszd a **Printers & Scanners** menüpontot.
-3. Kattints a bal oldali listában található **+** gombra.
-4. A **Default** fülön válaszd ki a `HP_LaserJet_P1005 (AirPrint)` eszközt, majd kattints az **Add** gombra.
-5. Ha nem látszik, menj az **IP** fülre és töltsd ki:
+## iOS (telefon/tablet)
+1. Nyisd meg a dokumentumot vagy fotót.
+2. Koppints a **Megosztás** ikonra, majd válaszd a **Print / Nyomtatás** opciót.
+3. A **Printer** mezőben válaszd a `HP_LaserJet_P1005` eszközt.
+4. Állítsd be a példányszámot, oldalakat, majd koppints a **Print** gombra.
+
+## Asztali gép (Mac/PC)
+1. Macen nyisd meg a **System Settings → Printers & Scanners** menüt.
+2. Kattints a bal oldali listában a **+** jelre.
+3. A megjelenő listából válaszd a `HP_LaserJet_P1005 (AirPrint)` sort és kattints az **Add** gombra.
+4. Ha nem látszik, válaszd az **IP** fület és töltsd ki:
    - **Address:** `192.168.1.11`
    - **Protocol:** AirPrint
-   - **Name:** pl. `HP_LaserJet_P1005`
-   - Ezután kattints az **Add** gombra.
-6. Nyomtatáshoz bármely alkalmazásban válaszd a **File → Print** menüt, és a listából jelöld ki a `HP_LaserJet_P1005`-öt.
+   - **Name:** `HP_LaserJet_P1005`
+5. Nyomtatáshoz bármelyik alkalmazásban használd a **File → Print** menüt; válaszd ki a nyomtatót és nyomj **Print**-et.
 
-## Nyomtatás iPhone-ról vagy iPadről (AirPrint)
+## Mit fogsz látni?
+- Kép: iOS Megosztás menü, alul a **Print** gombbal.
+- Kép: Nyomtató választó lista, benne a `HP_LaserJet_P1005 (AirPrint)` névvel.
+- Kép: macOS Printers & Scanners ablak, ahol a nyomtató hozzáadva látszik.
 
-1. Nyisd meg a nyomtatandó dokumentumot (Fotók, Safari, Mail, stb.).
-2. Koppints a **Megosztás** ikonra, majd válaszd a **Print** lehetőséget.
-3. Koppints a **Printer** mezőre, válaszd a `HP_LaserJet_P1005` eszközt.
-4. Állítsd be a példányszámot vagy oldaltartományt, majd koppints a **Print** gombra.
+## Gyakori hibák
+- **Nem jelenik meg a nyomtató:** ellenőrizd, hogy ugyanarra a Wi-Fi-re csatlakozol; ha kell, indítsd újra a nyomtatót.
+- **Beragadt sor:** a Macen töröld a Print Queue-ból a korábbi feladatokat, majd próbáld újra.
+- **Halvány nyomat:** rázd fel a tonert vagy jelezd, hogy cserélni kell.
 
-## Hibaelhárítás
-
-- **Nem látom a nyomtatót:** ellenőrizd, hogy ugyanazon a Wi-Fi hálózaton vagy-e.
-- **Alvó állapot:** ha a nyomtató régóta nem volt használva, nyomd meg a bekapcsoló gombot, hogy felébredjen.
-- **Újratelepítés:** Macen töröld a nyomtatót, majd add hozzá újra az **IP** fül segítségével.
-
-:::info Segítség
-Ha továbbra sem működik, szólj nekem – megnézem a szervert és a hálózati kapcsolatot.
-:::
+## Sürgős segítség
+- Kapcsold ki-be a nyomtatót, várj 10 másodpercet.
+- Próbálj másik eszközről nyomtatni (Mac helyett iPhone vagy fordítva).
+- Ha továbbra sem megy, hívd **Bence-t** telefonon, és mondd el, milyen hibaüzenetet látsz.

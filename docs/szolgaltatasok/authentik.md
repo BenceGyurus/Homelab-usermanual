@@ -20,17 +20,31 @@ Az Authentik a központi bejelentkezési rendszer, amely az összes szolgáltat�
 - Ha gyanús aktivitást látsz valamelyik szolgáltatásban
 :::
 
-## Authentik jelszó megváltoztatása
+## iOS (telefon/tablet)
 
-1. Nyiss meg egy böngészőt (Mac, Windows, iPhone, iPad) és írd be: `https://auth.gyurus.hu`.
-2. Jelentkezz be a családi Authentik fiókoddal (e-mail cím + jelenlegi jelszó).
-3. Bejelentkezés után a jobb felső sarokban kattints a nevedre, majd válaszd a **Manage account** menüpontot.
-4. Bal oldalt kattints a **Security**, azon belül a **Change password** opcióra.
-5. Írd be a jelenlegi jelszót, majd kétszer az újat. Legalább 12 karaktert használj, legyen benne kisbetű, nagybetű és szám.
-6. Kattints a **Save** gombra. Az új jelszó azonnal érvényes minden szolgáltatásnál.
+### Jelszócsere lépései telefonon
+1. Nyisd meg Safariban: `https://auth.gyurus.hu` (vagy bármelyik szolgáltatás belépő oldaláról koppints a **Manage account** linkre).
+2. Jelentkezz be az aktuális e-mail + jelszó párossal.
+3. A jobb felső sarokban koppints a nevedre → **Manage account**.
+4. A bal oldali menüben válaszd a **Security → Change password** részt.
+5. Írd be a jelenlegi jelszót, majd kétszer az újat (legalább 12 karakter, kis- és nagybetű, szám).
+6. Koppints a **Save** gombra – azonnal érvénybe lép minden alkalmazásnál.
 
-:::info Ha nem találod a portált
-Amikor bármelyik szolgáltatás Authentik ablakot nyit, a jobb felső sarokban megjelenik a **Manage account** link. Arra kattintva ugyanide jutsz, és ott is módosíthatod a jelszót.
+:::info Tipp telefonon
+Fordítsd el a telefont fekvő nézetbe, ha nem fér ki a teljes űrlap. Safari-ban nagyíthatsz két ujjal.
+:::
+
+## Asztali gép (Mac/PC)
+
+### Jelszócsere lépései gépen
+1. Böngésző címsorába írd: `https://auth.gyurus.hu`.
+2. Jelentkezz be az Authentik fiókoddal.
+3. Jobb felül kattints a nevedre → **Manage account**.
+4. Bal oldalt **Security → Change password**.
+5. Add meg a jelenlegi jelszót, majd kétszer az újat, végül **Save**.
+
+:::info Gyors elérés
+Ha bármelyik szolgáltatásnál megnyílik az Authentik ablak, a jobb felső sarokban ott a **Manage account** link – innen is eléred a fenti képernyőt.
 :::
 
 ## Eszközök ellenőrzése

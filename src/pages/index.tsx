@@ -78,7 +78,7 @@ const ServiceList: ServiceItem[] = [
     iconSrc: '/img/apps/printer.svg',
     url: 'http://192.168.1.11',
     docPath: '/docs/szolgaltatasok/nyomtato',
-    description: <>AirPrint kompatibilis otthoni nyomtató Macen és iOS-en.</>,
+    description: <>AirPrint (Apple beépített nyomtatás) kompatibilis otthoni nyomtató Macen és iOS-en.</>,
   },
 ];
 

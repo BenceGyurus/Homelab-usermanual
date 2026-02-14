@@ -4,106 +4,81 @@ sidebar_position: 2
 
 # Seafile (Fájlok)
 
-**Webcím:** [https://drive.gyurus.hu](https://drive.gyurus.hu)
+**Webcím:** [https://drive.gyurus.hu](https://drive.gyurus.hu)  
+🕒 Időtartam: 5 perc | 📱 iPhone/iPad | 💻 Mac/PC | 🔑 Authentik
+
+:::tip Gyorskártya
+- Mire jó? Családi felhőtárhely dokumentumoknak, fotóknak, megosztásoknak.
+- Mit csinálj? Lépj be, válaszd ki a tárat (libraryt), tölts fel vagy ossz meg fájlokat.
+- Mikor használd? Ha számlát kell elküldeni, nagy fájlt megosztani, vagy közös mappát tartani naprakészen.
+:::
+
+## 3 lépésben
+1. **App vagy böngésző megnyitása:** iOS-en telepítsd a Seafile appot, gépen elég a böngésző.
+2. **Belépés Authentikkel:** add meg az e-mail címed és jelszavad, válaszd ki a kívánt tárat.
+3. **Feltöltés/megosztás:** tölts fel dokumentumot, jelöld ki és küldd el linkkel vagy Meghívással.
 
 ## Mire jó?
 
-A Seafile egy saját felhőtárhely (mint a Google Drive vagy iCloud Drive):
+- **Feltöltés/letöltés:** dokumentumok, képek, videók.
+- **Megosztás:** mappát vagy fájlt linkkel vagy felhasználóval.
+- **Verziózás:** visszaléphetsz korábbi állapotokra.
 
-- **Fájlok feltöltése/letöltése** (dokumentumok, képek, videók)
-- Mappák megosztása családtagokkal
-- **Verziózás** - ha valamit felülírsz, vissza lehet nézni a korábbit
-
-:::tip Mikor használd?
-- Dokumentumokat akarsz megosztani a családon belül
-- Nagyobb fájlokat kell átküldeni (amiket nem jó email-ben)
-- Biztonsági másolatot akarsz készíteni fontos fájlokról
-:::
-
-## Röviden: mi az a "Library"?
-
-A Seafile-ben a **Libraries** ("tárak") olyanok, mint a nagy mappák. Ezeken belül vannak a megszokott mappák és fájlok.
+### Mi az a „Library”?
+Egy „tár” olyan, mint egy nagy mappa. Látod a listát belépés után; bármelyikbe beléphetsz és ott további mappákat hozhatsz létre.
 
 :::tip Készen vagy, ha...
-Látod a **Libraries** listát, és bele tudsz lépni egy tárba.
+Belépés után megjelennek a **Libraries** kártyák, és legalább az egyikbe bele tudsz lépni.
 :::
 
-## App telepítése
+## iOS (telefon/tablet)
 
-Töltsd le a Seafile appot az App Store-ból:
+### App telepítése
+- **[Seafile iOS letöltés](https://itunes.apple.com/cn/app/seafile-pro/id639202512?l=en&mt=8)**
+- Keresd "Seafile" néven az App Store-ban, töltsd le és indítsd el az ikont.
 
-**[Seafile iOS letöltés](https://itunes.apple.com/cn/app/seafile-pro/id639202512?l=en&mt=8)**
+### Első belépés telefonon
+1. Nyisd meg a **Seafile** appot.
+2. Válaszd az **Add account / Fiók hozzáadása** opciót.
+3. A **Server** mezőbe írd: `https://drive.gyurus.hu`, majd folytasd.
+4. A megjelenő **Authentik** oldalon add meg az e-mail címedet és jelszavadat.
+5. Sikeres belépés után látod a **Libraries** listát.
 
-Az App Store-ban **"Seafile"** néven is megtalálod.
+### Feltöltés iPhone-ról/iPadről
+1. Lépj be a kívánt mappába.
+2. Koppints a **+ / Upload** gombra.
+3. Válassz: **Photos** (képek/videók) vagy **Files** (dokumentumok).
+4. Jelöld ki a feltöltendő tartalmakat, majd koppints **Upload**.
 
-<!-- KÉP HELYE: App Store találatlista, ahol látszik a Seafile app neve és ikonja (narancssárga színű, felhő ikon) -->
+### Feltöltés megosztásból
+1. Nyisd meg a fájlt a **Fájlok** vagy **Fotók** appban.
+2. Koppints a **Megosztás** ikonra.
+3. Válaszd a **Seafile** ikont (ha nem látod, koppints a "More / Továbbiak" gombra).
+4. Válaszd ki a mappát, majd erősítsd meg a feltöltést.
 
-## Első belépés (app)
+### Letöltés / mentés a telefonra
+1. Koppints a fájlra, így megnyílik.
+2. Használd a **Share / Open in...** menüt.
+3. **Save to Files / Mentés a Fájlokba** opcióval offline is meglesz.
 
-1. Nyisd meg a **Seafile** appot
-2. Válaszd az **Add account / Fiók hozzáadása** opciót
-3. A **Server** mezőbe írd be:
-   ```
-   https://drive.gyurus.hu
-   ```
-4. Folytatás után a belépés **Authentik**-en történik
-5. Sikeres belépés után megjelennek a **Libraries** (tárak / megosztások)
+## Mit fogsz látni?
+- Kép: Seafile "Add account" képernyő `https://drive.gyurus.hu` címmel.
+- Kép: Authentik belépő oldal e-mail és jelszó mezővel.
+- Kép: Seafile könyvtár lista (Libraries), ahol látszanak a tárak.
 
-<!-- KÉP HELYE: Authentik belépő képernyő a Seafile-en belül (e-mail/jelszó és Belépés gomb) -->
+## Asztali gép (Mac/Windows)
 
-<!-- KÉP HELYE: Seafile "Add account" képernyő, ahol a `https://drive.gyurus.hu` szerepel a Server mezőbe beírva -->
+### Böngészős használat
+1. Nyiss meg egy böngészőt, írd be: `https://drive.gyurus.hu`.
+2. Jelentkezz be Authentikkel.
+3. Bal oldalt válassz **Library**-t vagy kattints **+ New library** gombra új tárhoz.
+4. Feltöltéshez kattints az **Upload** gombra, vagy húzd rá a fájlokat az ablakra.
+5. Több fájl kijelölése után fent megjelennek a **Download / Move / Delete** opciók.
+6. Új mappához kattints a **New directory** gombra a tárban.
 
-## Fájl feltöltése iPhone-ról
-
-1. Nyisd meg a **Seafile** appot
-2. Lépj be a megfelelő mappába
-3. Koppints a **+** vagy **Upload** gombra
-4. Válaszd ki:
-   - **Photos** (Fotók) - képek/videók
-   - **Files** (Fájlok) - dokumentumok
-5. Válaszd ki a feltöltendő elemeket
-6. Koppints: **Upload**
-
-<!-- KÉP HELYE: Seafile feltöltés ablak, ahol látszik a Photos és Files választó opció -->
-
-### Feltöltés a Fájlok/Fotók appból (megosztással)
-
-Néha ez a legegyszerűbb:
-
-1. Nyisd meg a fájlt a **Fájlok** appban (vagy egy képet a **Fotók** appban)
-2. Koppints a **Megosztás** ikonra
-3. Keresd meg a listában a **Seafile**-t (ha nem látod: "More / Továbbiak")
-4. Válaszd ki, melyik mappába mentse
-5. Koppints: **Upload / Feltöltés**
-
-<!-- KÉP HELYE: iOS megosztás menü, ahol látszik a Seafile mint cél app -->
-
-## Fájl letöltése / megnyitása
-
-1. Koppints a fájlra a listában
-2. A fájl megnyílik / letöltődik
-3. iOS felajánlja a **Share** / **Open in...** lehetőségeket
-4. Ha el akarod menteni: **Share** -> **Save to Files / Mentés a Fájlokba**
-
-<!-- KÉP HELYE: iOS megosztási menü, ahol látszik a "Save to Files" opció -->
-
-:::note Tipp: mentés a telefonra
-Ha szeretnéd, hogy egy dokumentum biztosan meglegyen offline is, mentsd a **Fájlok** appba ("Mentés a Fájlokba").
-:::
-
-## Használat asztali gépen (Mac/Windows)
-
-1. Nyiss meg egy böngészőt, és látogasd meg: `https://drive.gyurus.hu`.
-2. Jelentkezz be Authentiken keresztül.
-3. A bal oldali **Libraries** listából válassz könyvtárat, vagy kattints az **+ New library** gombra új tár létrehozásához.
-4. Feltöltéshez kattints a jobb felső **Upload** gombra, majd húzd rá a fájlokat, vagy válaszd ki őket a fájlkezelőből.
-5. Több fájlt egyszerre jelölhetsz ki (Shift vagy Ctrl/Cmd + kattintás), majd a felső sávban **Download** / **Move** / **Delete** lehetőségeket kapsz.
-6. Ha mappát szeretnél létrehozni, a tárban kattints a **New directory** gombra.
-
-**Tippek böngészőhöz:**
-- Nagy fájlokat is felhúzhatsz egyszerűen drag & drop-pal.
-- Ha valakivel megosztanál egy fájlt, jelöld ki, majd kattints a **Share** ikonra; itt jelszót vagy lejárati dátumot is beállíthatsz.
-- A verziók (history) a fájl jobb oldali hárompontos menüjéből érhetők el, így vissza tudsz állni korábbi állapotra.
+### Megosztás és verziózás
+- Fájl/mappa kijelölése után a **Share** ikonnal tudsz linket vagy felhasználói meghívást küldeni.
+- A hárompontos menüből eléred a **History** részt, így visszaállíthatod a régi változatot.
 
 ## Megosztás családtaggal
 
@@ -131,3 +106,11 @@ Link megosztásnál figyelj arra, kinek küldöd tovább. Ha kérsz, beállítha
 :::info Segítség
 Ha elakadsz, küldj képernyőképet, és segítek!
 :::
+
+## Sürgős segítség
+- Ellenőrizd, hogy a készülék a megfelelő Wi-Fi hálózaton van-e.
+- Próbáld újraindítani az appot vagy frissíteni a böngésző oldalt.
+- Ha hibaüzenetet kapsz, készíts róla képernyőképet és hívd **Bence-t**.
+
+## További ötletek
+- [Seafile – mit tudsz csinálni?](/docs/otletek/seafile-otletek): számla beküldés, linkes megosztás, offline olvasás.

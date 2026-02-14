@@ -33,8 +33,7 @@ runs:
       with:
         images: ${{ inputs.image-name }}
         tags: |
-          type=raw,value=latest
-          type=sha,format=short
+          type=raw,value=latest-tag
 
     - name: Build and push
       uses: docker/build-push-action@v6

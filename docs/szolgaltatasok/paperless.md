@@ -22,24 +22,24 @@ A Paperless-ngx egy **dokumentumtároló és kereshető archívum**:
 - Később gyorsan meg akarod találni egy régi számlát/szerződést
 :::
 
-## Használat iPhone-on (Safari)
+## iOS (telefon/tablet)
 
-Ennek az alkalmazásnak **nincs külön appja** - a böngészőben használd:
-
-1. Nyisd meg Safariban: **[https://paperles.gyurus.hu](https://paperles.gyurus.hu)**
-2. Lépj be **Authentik**-en (e-mail + jelszó)
-3. Megjelenik a dokumentumlista
+### Böngészőből (Safari)
+1. Nyisd meg Safariban: **[https://paperles.gyurus.hu](https://paperles.gyurus.hu)**.
+2. Jelentkezz be **Authentik** adataiddal (e-mail + jelszó).
+3. A dokumentumlista megjelenik, felül keresőmezővel és szűrőkkel.
 
 :::tip Mire lesz szükséged?
-- iPhone/iPad és internet
-- A saját családi felhasználód (Authentik belépés)
+- iPhone/iPad + internet
+- Authentik felhasználó
+- A feltöltendő dokumentum PDF-ben vagy fotóként
 :::
 
 <!-- KÉP HELYE: Paperless dokumentumlista iPhone kijelzőn, látszik a kereső és szűrők, alatta dokumentum kártyák -->
 
-## Dokumentum feltöltése iPhone-ról
+### Dokumentum feltöltése iPhone-ról
 
-### Opció A: Safari feltöltés gomb
+#### Opció A: Safari feltöltés gomb
 
 1. A Paperless oldalon keresd az **Upload / Feltöltés** gombot (általában jobb felső sarok)
 2. Válaszd ki a fájlt a **Files / Fájlok** appból
@@ -51,7 +51,7 @@ Ennek az alkalmazásnak **nincs külön appja** - a böngészőben használd:
 A Paperless a feltöltött dokumentumot feldolgozza (OCR). Ez pár másodperctől pár percig tarthat. Ha nem látod azonnal, várj egy kicsit és frissíts.
 :::
 
-### Opció B: Dokumentum beolvasása iPhone-nal
+#### Opció B: Dokumentum beolvasása iPhone-nal
 
 Az iPhone-odon beépített **scanner** funkció van! Így használd:
 
@@ -71,19 +71,18 @@ Az iPhone-odon beépített **scanner** funkció van! Így használd:
 A beolvasás után érdemes **jól látható nevet** adni a fájlnak, pl. "2024-01-15_Vodafone_szamla.pdf"
 :::
 
-## Használat asztali gépen (Mac/Windows)
+## Asztali gép (Mac/Windows)
 
-1. Nyiss meg egy böngészőt (Chrome, Edge, Safari), és írd be: `https://paperles.gyurus.hu`.
+1. Nyiss meg egy böngészőt (Chrome, Edge, Safari), írd be: `https://paperles.gyurus.hu`.
 2. Jelentkezz be Authentikkel.
-3. A felső menüben válaszd az **Upload documents** gombot, majd húzd rá a PDF-eket, képeket, vagy kattints a fájlválasztóhoz.
-4. A jobb oldali panelen egyszerre adhatsz meg címkét, dokumentumtípust, partnert, így nem kell később szerkeszteni.
-5. A böngészőben feltöltött PDF-eket ugyanúgy feldolgozza (OCR), mint a telefonról szkennelt képeket.
-6. Ha sok dokumentumod van egy mappában, jelöld ki mindet (Ctrl/Cmd + A), és egyszerre húzd be – a Paperless sorban feldolgozza.
+3. Válaszd az **Upload documents** gombot, majd húzd rá a PDF-eket, vagy kattints a fájlválasztóra.
+4. A jobb oldali panelen azonnal állítsd be a címkéket, dokumentumtípust, partnert.
+5. Nagyobb mennyiségnél jelöld ki a fájlokat a mappában (Ctrl/Cmd + A) és egyben húzd be – sorban feldolgozza.
 
-**Miért jó asztaliról is használni?**
-- Villámgyors drag & drop feltöltés emailben kapott PDF számlákból.
-- A feldolgozás utáni metaadatokat (tagek, típus, partner) nagy képernyőn könnyebb beállítani.
-- A keresőmező azonnal előnézetet mutat, így néhány kulcsszóval megtalálod a keresett szerződést.
+**Miért jó asztaliról?**
+- Gyors drag & drop e-mailben kapott számlákhoz.
+- Nagy képernyőn kényelmesebb címkézni, kategorizálni.
+- A keresőmező azonnal előnézetet mutat, így pár kulcsszóval célba érsz.
 
 ## Keresés és rendezés
 

@@ -4,145 +4,64 @@ sidebar_position: 1
 
 # Immich (Fotók)
 
-**Webcím:** [https://photos.gyurus.hu](https://photos.gyurus.hu)
+**Webcím:** [https://photos.gyurus.hu](https://photos.gyurus.hu)  
+🕒 Időtartam: 5 perc | 📱 iPhone/iPad | 🔑 Authentik bejelentkezés
 
-## Mire jó?
-
-Az Immich egy "saját Google Photos" jellegű fotótár:
-
-- **Automatikus fotó- és videómentés** iPhone-ról a szerverre
-- Albumok, keresés, arcok/helyek (ha be van kapcsolva)
-- Megosztás családtagokkal
-
-:::tip Fontos
-Ez a legjobb módja annak, hogy a telefonodon lévő fotók biztonságban legyenek - ha elvész vagy tönkremegy a telefon, a képek megmaradnak a szerveren!
+:::tip Gyorskártya
+- Mire való? Automatikusan lement minden új fotót és videót.
+- Mire figyelj? Az első mentéshez Wi-Fi-t és töltőt használj.
+- Mit nyersz? Ha a telefon eltűnik, a képek akkor is biztonságban maradnak.
 :::
 
-## App telepítése
+## 3 lépésben
+1. **App telepítése:** Nyisd meg az App Store-t, keresd meg az Immich appot, koppints a Letöltésre.
+2. **Belépés:** Írd be a szerver címet `https://photos.gyurus.hu`, majd jelentkezz be Authentikkel.
+3. **Mentés bekapcsolása:** A Beállításokban kapcsold be az **Automatic backup** kapcsolót és engedélyezd az összes fotót.
 
-Töltsd le az Immich appot az App Store-ból:
+## iOS (telefon/tablet)
 
-**[Immich iOS letöltés](https://get.immich.app/ios)**
+### App telepítése
+- **[Immich iOS letöltés](https://get.immich.app/ios)**
+- Koppints a kis felhő ikonra, várj, amíg települ.
+- A telepítés után az ikon megjelenik az iPhone/iPad kezdőképernyőjén.
 
-<!-- KÉP HELYE: App Store oldala az "Immich" alkalmazásnak, látszik a Letöltés gomb és az app ikonja (kék színű, fényképező ikon) -->
+### Első belépés telefonon
+1. Nyisd meg az Immich appot.
+2. A **Server URL** mezőbe írd: `https://photos.gyurus.hu`, majd koppints **Continue**.
+3. Megjelenik az **Authentik** oldal – add meg az e-mail címedet és a jelszavadat.
+4. Engedélyezd, hogy megjegyezze az adatokat, így legközelebb automatikusan belépsz.
+5. Sikeres belépés után a kezdőképernyőre érsz, látod a fotóid idővonalát.
 
-## Mire lesz szükséged?
+### Automatikus mentés telefonon
+1. Alul koppints a **Settings** ikonra.
+2. Válaszd a **Backup** részt.
+3. Kapcsold be az **Automatic backup** kapcsolót.
+4. iOS engedélynél válaszd az **Összes fotó** opciót.
+5. Ajánlott beállítás: **Wi-Fi only** + tedd töltőre a telefont az első feltöltéshez.
 
-- iPhone vagy iPad internetkapcsolattal (Wi-Fi ajánlott az első feltöltéshez)
-- A saját családi felhasználód (Authentik belépés: e-mail + jelszó)
-- iOS engedély: a Fotókhoz hozzáférés (válaszd majd az **Összes fotó** opciót)
+## Asztali gép (Mac/PC)
 
-:::tip Mit fogsz látni belépéskor?
-Az Immich egy böngészős belépő oldalt fog megnyitni (Authentik). Ez normális: itt kell beírni az e-mail címet és a jelszót.
-:::
+### Böngészős használat
+1. Safari/Chrome/Edge címsorába írd: `https://photos.gyurus.hu`.
+2. Jelentkezz be Authentikkel.
+3. Jobb felül az **Upload** gombbal vagy drag & drop-pal tölts fel képeket.
+4. Albumhoz jelöld ki a fotókat, majd kattints az **Add to album** gombra.
+5. A nagy képernyőn könnyebb rendszerezni, keresni és megosztani.
 
-## Első belépés (app)
+## Mit fogsz látni?
+- Kép: Immich "Server URL" mező `https://photos.gyurus.hu` címmel.
+- Kép: Authentik bejelentkező ablak e-mail és jelszó mezővel.
+- Kép: Immich Settings → Backup képernyő, ahol az **Automatic backup** kapcsoló zöld.
 
-1. Telepítés után nyisd meg az **Immich** appot
-2. A **Server URL / Szerver cím** mezőbe írd be:
-   ```
-   https://photos.gyurus.hu
-   ```
-3. Koppints: **Continue / Tovább**
-4. Át fog dobni az **Authentik** belépésre
-5. A belépő oldalon:
-   - írd be az **e-mail címedet**
-   - írd be a **jelszavadat**
-   - koppints: **Belépés / Sign in**
-6. Sikeres belépés után visszakerülsz az Immich appba, és megjelennek a menük
+## Gyakori hibák
+- **Nem tölt fel:** nyisd meg az appot Wi-Fi-n, hagyd a képernyőn pár percig.
+- **Csak korlátozott fotóhozzáférés:** iOS Beállítások → Immich → Fotók → **Összes fotó**.
+- **Kijelentkezett:** indítsd el újra az appot és add meg az Authentik adatokat.
 
-<!-- KÉP HELYE: Immich "Server URL" képernyő, ahol látszik a `https://photos.gyurus.hu` beírva a szövegmezőbe -->
+## Sürgős segítség
+- Ellenőrizd, hogy a telefonon van-e internet (Wi-Fi vagy mobilnet).
+- Küldj egy képernyőképet a hibaüzenetről iMessage-en vagy Messengeren.
+- Ha nem megy: hívd **Bence-t** telefonon, és mondd, hogy "Immich mentés nem megy".
 
-<!-- KÉP HELYE: Authentik belépés az Immich appon belül (email/jelszó mezők és Belépés gomb) -->
-
-:::note Ha nem dob át automatikusan
-Nézd meg, nem jelent-e meg egy "Open in browser / Megnyitás böngészőben" gomb - koppints rá!
-:::
-
-## Automatikus mentés bekapcsolása
-
-**Ez a legfontosabb lépés!** Ha ezt beállítod, minden fotód és videód automatikusan felmegy a szerverre.
-
-1. Immich appban: **Settings / Beállítások**
-2. **Backup / Mentés** (vagy "Upload") rész
-3. Kapcsold be: **Automatic backup**
-4. Engedélyezd a Fotók hozzáférést, amikor kéri (válaszd: **All Photos / Összes fotó**)
-5. Ha van választási lehetőség:
-   - **Wi-Fi only** (csak Wi-Fi): kevesebb mobilnet
-   - **Background upload** (háttérfeltöltés): gyorsabb, de több akku
-
-<!-- KÉP HELYE: iOS engedélykérés "Photos Access" ablak, ahol 3 opció látszik: All Photos, Limited Access, Don't Allow -->
-
-<!-- KÉP HELYE: Immich Backup beállítások képernyő, ahol látszanak a kapcsolók (Automatic backup, Wi-Fi only stb.) -->
-
-:::tip Javaslat
-Ha sok a videó, érdemes először Wi-Fi-n hagyni feltölteni, és közben töltőre tenni a telefont.
-:::
-
-:::note iOS tipp (ha néha leáll a feltöltés)
-Az iPhone időnként "elaltat" appokat a háttérben. Ha azt látod, hogy napokig nem tölt fel, nyisd meg az Immich appot pár percre, és hagyd elöl.
-:::
-
-## Használat asztali gépen (böngészőből)
-
-1. Nyiss meg egy böngészőt (Safari, Chrome, Edge) Macen vagy PC-n, és írd be: `https://photos.gyurus.hu`.
-2. Lépj be Authentik felhasználóddal (e-mail + jelszó).
-3. A bal oldali menüben választhatsz albumot, idővonalat, megosztásokat.
-4. Feltöltéshez kattints jobb felül a **Upload** gombra, vagy egyszerűen húzd rá a képeket/videókat az ablakra.
-5. Több fájlt is kijelölhetsz egyszerre (Shift/Command + kattintás), így gyors a tömeges feltöltés.
-6. Album készítéskor jelöld ki a képeket, majd kattints a felső sávban az **Add to album** gombra.
-
-**Miért jó böngészőből?**
-- Nagy képernyőn könnyebb átnézni és rendszerezni az albumokat.
-- Gyors drag & drop feltöltés akár fényképezőgépről másolt mappákból is.
-- A keresőmező egyben javaslatokat is ad (pl. helyszín, ember neve), így pár másodperc alatt megtalálod, amit keresel.
-
-## Napi használat
-
-### Feltöltés ellenőrzése
-A képernyőn általában látszik egy jelzés, ha dolgozik (sync/feltöltés ikon a tetején).
-
-<!-- KÉP HELYE: Immich főképernyő, ahol látszik a feltöltési állapot ikon a jobb felső sarokban (szinkronizálás közben) -->
-
-### Album készítése
-1. Menj a **Photos** részbe
-2. Koppints **Select** (vagy hosszan nyomj egy képet)
-3. Jelöld ki a képeket
-4. Koppints: **Add to album**
-5. Válassz meglévő albumot vagy hozz létre újat
-
-### Megosztás
-1. Albumon belül koppints a **Share** gombra
-2. Válassz: személy hozzáadása vagy megosztható link (ha elérhető)
-
-### Keresés
-1. Koppints a **Search** ikonra (nagyító)
-2. Írj be személyt/helyet/tárgyat
-3. A rendszer megkeresi a találatokat
-
-## Gyakori hibák és megoldások
-
-### Nem tölt fel
-- Nyisd meg az appot Wi-Fi-n
-- Hagyd pár percig elöl (ne a háttérben)
-- Ellenőrizd, hogy van-e elég hely a szerveren
-
-### Csak "Korlátozott hozzáférés" van beállítva
-Ha korábban véletlenül nem az **Összes fotó** opciót választottad:
-
-1. iOS **Beállítások** -> **Immich**
-2. **Photos / Fotók**
-3. Válaszd: **Összes fotó**
-
-### Kijelentkeztetett
-- Nyisd meg újra az appot
-- Lépj be Authentik-en
-
-### Nincs hozzáférés a fotókhoz
-1. Menj az iOS **Beállítások** appba
-2. Keresd meg: **Immich**
-3. **Photos** -> válaszd: **All Photos**
-
-:::info Segítség
-Ha továbbra sem megy: küldj egy képernyőképet a hibaüzenetről, és megmondom, mit kell állítani!
-:::
+## További ötletek
+- [Immich – mit tudsz csinálni?](/docs/otletek/immich-otletek): családi album készítése, tárhely felszabadítás, nagyszülőknek való megosztások.

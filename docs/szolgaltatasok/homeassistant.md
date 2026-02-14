@@ -21,7 +21,9 @@ A Home Assistant az **otthoni okoseszközök "központi távirányítója"**:
 - Jeleneteket akarsz indítani (pl. "Filmnézés" = lámpák lehalkítása)
 :::
 
-## App telepítése
+## iOS (telefon/tablet)
+
+### App telepítése
 
 Töltsd le a Home Assistant appot az App Store-ból:
 
@@ -29,7 +31,7 @@ Töltsd le a Home Assistant appot az App Store-ból:
 
 <!-- KÉP HELYE: App Store oldala a "Home Assistant" appnak, látszik a kék-fehér ikon és a Letöltés gomb -->
 
-## Első belépés (app)
+### Első belépés (app)
 
 1. Nyisd meg a **Home Assistant** appot
 2. Ha kér szervercímet, írd be:
@@ -45,7 +47,7 @@ Töltsd le a Home Assistant appot az App Store-ból:
 
 <!-- KÉP HELYE: A családi "Dashboard" kezdőképernyő, ahol látszanak a lámpa gombok, kapcsoló kártyák -->
 
-## Alap használat
+### Alap használat
 
 ### Kapcsoló/lámpa be/ki
 - Egyszerűen **koppints** a lámpa vagy kapcsoló kártyájára
@@ -65,7 +67,7 @@ Töltsd le a Home Assistant appot az App Store-ból:
 ### Kedvencek
 - Ha van csillag / "favorite" lehetőség, a gyakran használt dolgokat tedd ki a főképernyőre
 
-## Hasznos iOS extrák
+### Hasznos iOS extrák
 
 ### Widget
 Kitehetsz **gyorsgombokat** az iOS kezdőképernyőre:
@@ -110,7 +112,7 @@ Szólj nekem, és megnézem:
 Ha valami nem működik (pl. egy lámpa nem reagál): küldj képernyőképet a Dashboard-ról és a hibaüzenetről!
 :::
 
-## Használat asztali gépen (böngészőből)
+## Asztali gép (Mac/PC)
 
 1. Nyiss meg egy böngészőt (Chrome, Edge, Safari) és írd be: `https://home.gyurus.hu`.
 2. Jelentkezz be Authentikkel.

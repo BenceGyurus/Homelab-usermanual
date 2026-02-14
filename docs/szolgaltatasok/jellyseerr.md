@@ -20,41 +20,35 @@ A Jellyseerr egy **"kívánságlista" és kereső felület**:
 3. Pár óra múlva már nézheted a Jellyfin-ben!
 :::
 
-## Használat iPhone-on (Safari)
+## iOS (telefon/tablet)
 
-Ennek az alkalmazásnak **nincs külön appja** - a böngészőben használd:
-
-1. Nyisd meg Safariban: **[https://sorozat.gyurus.hu](https://sorozat.gyurus.hu)**
-2. Belépés **Authentik**-en (e-mail + jelszó)
-3. Keresd meg a címet (Search / Keresés mező)
-4. Nyisd meg a találatot
-5. Koppints: **Request / Kérés**
-6. Sorozatnál válaszd ki az évadokat (ha felajánlja), majd küldd el a kérést
+### Böngészőben (Safari)
+1. Nyisd meg Safariban: **[https://sorozat.gyurus.hu](https://sorozat.gyurus.hu)**.
+2. Jelentkezz be Authentikkel (e-mail + jelszó).
+3. A keresőmezőbe írd be a film vagy sorozat címét.
+4. Nyisd meg a találatot, koppints a **Request / Kérés** gombra.
+5. Sorozatnál jelöld be az évadokat, majd erősítsd meg a kérést.
 
 :::tip Mire lesz szükséged?
-- iPhone/iPad és internet
-- A saját családi felhasználód (Authentik belépés)
+- iPhone/iPad (böngészővel)
+- Stabil internetkapcsolat
+- Authentik bejelentkezés
 :::
 
-:::note Ha már létezik a könyvtárban
-Ha a film/sorozat már fent van, általában valami ilyesmit látsz: **Available**. Ilyenkor nem kell kérni, csak nyisd meg a Jellyfin-t.
+:::note Ha már elérhető
+Ha **Available** jelzést látsz, a tartalom már a Jellyfin-ben van – nyisd meg ott, nem kell újra kérni.
 :::
 
 <!-- KÉP HELYE: Jellyseerr kezdőképernyő iPhone-on Safari böngészőben, látszik a Search mező és néhány film poszter -->
 
 <!-- KÉP HELYE: Egy sorozat oldala, ahol látszik a "Request" gomb és az évad választó (Season 1, Season 2 stb. checkboxokkal) -->
 
-## Gyors elérés: ikon a kezdőképernyőn
-
-Ha sokat használod, kiteheted ikonként a telefonodra:
-
-1. Nyisd meg Safariban: `https://sorozat.gyurus.hu`
-2. Koppints a **Share ikonra** (a négyzet felfelé nyíllal)
-3. Válaszd: **Add to Home Screen / Hozzáadás a kezdőképernyőhöz**
-4. Adj nevet (pl. "Sorozat kérés")
-5. Koppints: **Add / Hozzáadás**
-
-Most már a többi app mellett megtalálod az ikont!
+### Gyors ikon iPhone-on
+1. Safariban nyisd meg: `https://sorozat.gyurus.hu`.
+2. Koppints a **Share** ikonra (négyzet felfelé nyíllal).
+3. Válaszd az **Add to Home Screen / Kezdőképernyőhöz** opciót.
+4. Adj nevet (pl. "Sorozat kérés"), majd koppints **Add**.
+5. Mostantól úgy működik, mint egy app ikon.
 
 <!-- KÉP HELYE: iOS Share menü, ahol ki van emelve az "Add to Home Screen" opció -->
 
@@ -87,16 +81,19 @@ Néha pár óra is lehet, mire minden elkészül (letöltés + feliratozás + k�
 Ha a "Mintaapák" nem talál semmit, próbáld: "Modern Family"
 :::
 
-## Használat asztali gépen
+## Asztali gép (Mac/PC)
 
-1. Nyiss meg egy böngészőt (Chrome, Edge, Safari) Macen vagy PC-n, majd lépj a `https://sorozat.gyurus.hu` oldalra.
+1. Chrome/Edge/Safari böngészőben nyisd meg: `https://sorozat.gyurus.hu`.
 2. Jelentkezz be Authentikkel.
-3. A felső keresőmezőbe kezdj el gépelni – már pár karakter után megjelennek a találatok.
-4. A film/sorozat oldalán kattints a **Request** gombra. Sorozatnál választhatod, hogy teljes sorozatot vagy csak bizonyos évadokat kérsz.
-5. A bal oldali menü **Requests** pontjában látod a korábbi kérések állapotát (Requested / Processing / Available).
-6. Ha már elérhető, kattints a címre, és a megjelenő link rögtön átvisz a Jellyfin megfelelő oldalára.
+3. A felső keresőmező azonnal mutatja a találatokat gépelés közben.
+4. Kattints a címre → **Request** gomb. Sorozatnál választhatod az egész sorozatot vagy csak pár évadot.
+5. A bal oldali **Requests** menüpontban követheted az állapotot (Requested / Processing / Available).
+6. Ha egy kérés **Available**, a címre kattintva rögtön átléphetsz a Jellyfin oldalára.
 
-**Tippek böngészőhöz:**
-- Használhatsz böngésző könyvjelzőt vagy pinned tabot, így egy kattintás a Jellyseerr.
-- Ha több címet keresel egymás után, nyisd meg őket új lapon (Ctrl/Cmd + kattintás), így nem vész el a találati lista.
-- A jobb felső értesítés ikon mutatja, ha egy kérésed feldolgozódott – kattintva részletes infót kapsz.
+**Tippek asztali használathoz:**
+- Tedd könyvjelzőbe vagy pineld a lapot, így egy kattintásnyira lesz.
+- Több cím keresésekor nyisd őket új lapon (Ctrl/Cmd + katt), hogy megmaradjon a lista.
+- A jobb felső értesítés ikon jelzi, ha elkészült egy kérelmed.
+
+## További ötletek
+- [Jellyseerr – mit tudsz csinálni?](/docs/otletek/jellyseerr-otletek): teljes sorozat kérése, részleges évad, családtag szerinti követés.
