@@ -28,7 +28,7 @@ Mielőtt Jellyseerr-be lépnél, egyszer jelentkezz be a Jellyfinbe (ugyanazzal 
 
 ### Böngészőben (Safari)
 1. Nyisd meg Safariban: **[https://sorozat.gyurus.hu](https://sorozat.gyurus.hu)**.
-2. Jelentkezz be Authentikkel: a regisztrációkor megadott felhasználóneveddel és a jelszavaddal.
+2. Jelentkezz be Authentikkel: a regisztrációkor megadott felhasználóneveddel vagy az e-mail címeddel, plusz a jelszavaddal.
 3. A keresőmezőbe írd be a film vagy sorozat címét.
 4. Nyisd meg a találatot, koppints a **Request / Kérés** gombra.
 5. Sorozatnál jelöld be az évadokat, majd erősítsd meg a kérést.
