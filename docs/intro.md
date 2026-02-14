@@ -15,9 +15,9 @@ Ezt az útmutatót úgy írtuk, hogy a család idősebb tagjai is biztonsággal 
 
 ## Mit kell tudni a bejelentkezésről?
 
-Minden alkalmazás ugyanazzal az **Authentik** fiókkal működik.
+Mindenki saját **Authentik** fiókot kap tőlem egy regisztrációs linken keresztül.
 
-- **Egy e-mail + jelszó**: nem kell megjegyezni több kombinációt
+- **Saját e-mail + jelszó**: nem kell közös adatokat megjegyezni
 - **Biztonságos**: ha kilépsz egy helyen, máshol is kilépsz
 - **Maradjon meg**: ha a készülék megjegyzi, legközelebb automatikusan belépsz
 

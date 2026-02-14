@@ -9,7 +9,7 @@ Ez az egyoldalas összefoglaló kinyomtatható, és minden lépéshez segítőt 
 
 ## Fontos adatok
 
-- **Közös bejelentkezés (Authentik):** a megszokott családi e-mail + jelszó
+- **Authentik belépés:** mindenkinek saját felhasználója van – a regisztrációs linket tőlem kapod
 - **Segítség:** keress telefonon vagy üzenetben, ahogy eddig is
 - **Wi-Fi:** használj stabil otthoni hálózatot, így a feltöltés gyorsabb
 
