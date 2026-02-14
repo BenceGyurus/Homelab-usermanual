@@ -51,4 +51,4 @@ Az **AirPrint** az Apple beépített nyomtatási rendszere. Ha az iPhone, iPad v
 ## Sürgős segítség
 - Kapcsold ki-be a nyomtatót, várj 10 másodpercet.
 - Próbálj másik eszközről nyomtatni (Mac helyett iPhone vagy fordítva).
-- Ha továbbra sem megy, hívd **Bence-t** telefonon, és mondd el, milyen hibaüzenetet látsz.
+- Ha továbbra sem megy, hívj fel, és mondd el, milyen hibaüzenetet látsz.

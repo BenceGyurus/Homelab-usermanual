@@ -61,7 +61,7 @@ sidebar_position: 1
 ## Sürgős segítség
 - Ellenőrizd, hogy a telefonon van-e internet (Wi-Fi vagy mobilnet).
 - Küldj egy képernyőképet a hibaüzenetről iMessage-en vagy Messengeren.
-- Ha nem megy: hívd **Bence-t** telefonon, és mondd, hogy "Immich mentés nem megy".
+- Ha nem megy: hívj fel, és mondd, hogy "Immich mentés nem megy".
 
 ## További ötletek
 - [Immich – mit tudsz csinálni?](/docs/otletek/immich-otletek): családi album készítése, tárhely felszabadítás, nagyszülőknek való megosztások.

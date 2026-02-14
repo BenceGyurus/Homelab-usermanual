@@ -9,8 +9,8 @@ Ez az egyoldalas összefoglaló kinyomtatható, és minden lépéshez segítőt 
 
 ## Fontos adatok
 
-- **Közös bejelentkezés (Authentik):** `email@gyurus.hu` + a saját jelszavad
-- **Segítség:** Bence – telefon: **+36 30 000 0000** (példaszám, cseréld ki a valódi elérhetőségre)
+- **Közös bejelentkezés (Authentik):** a megszokott családi e-mail + jelszó
+- **Segítség:** keress telefonon vagy üzenetben, ahogy eddig is
 - **Wi-Fi:** használj stabil otthoni hálózatot, így a feltöltés gyorsabb
 
 ## Gyors lépések táblázat
@@ -38,7 +38,7 @@ Az **AirPrint** az Apple beépített nyomtatási funkciója: nem kell külön al
 ## Ha baj van
 
 1. Nézd meg a szolgáltatásoldal alján a **Sürgős segítség** részt
-2. Ha ott nem oldódik meg, hívd **Bence-t** (szám fent)
+2. Ha ott nem oldódik meg, hívj fel (ahogy szoktál)
 3. Nyugodtan készíts fotót a képernyőről; úgy könnyebb rájönni, mi a gond
 
 ---

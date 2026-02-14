@@ -58,4 +58,4 @@ Ha konkrét ötlet kell, nézd meg ezeket a rövid cikkeket:
 
 ## Ha elakadnál
 
-Hívd **Bence-t** telefonon vagy írj üzenetet – a számot minden szolgáltatásoldal alján megtalálod, valamint a [Szülőknek gyorstalpaló](./szuloknek-gyorstalpalo.md) oldalon.
+Hívj fel vagy írj üzenetet – az elérhetőségeimet ugyanúgy használhatod, mint eddig. A [Szülőknek gyorstalpaló](./szuloknek-gyorstalpalo.md) oldalon is emlékeztetőt találsz erről.

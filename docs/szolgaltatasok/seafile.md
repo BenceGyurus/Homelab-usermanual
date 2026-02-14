@@ -110,7 +110,7 @@ Ha elakadsz, küldj képernyőképet, és segítek!
 ## Sürgős segítség
 - Ellenőrizd, hogy a készülék a megfelelő Wi-Fi hálózaton van-e.
 - Próbáld újraindítani az appot vagy frissíteni a böngésző oldalt.
-- Ha hibaüzenetet kapsz, készíts róla képernyőképet és hívd **Bence-t**.
+- Ha hibaüzenetet kapsz, készíts róla képernyőképet és hívj fel.
 
 ## További ötletek
 - [Seafile – mit tudsz csinálni?](/docs/otletek/seafile-otletek): számla beküldés, linkes megosztás, offline olvasás.
