@@ -2,107 +2,267 @@
 sidebar_position: 3
 ---
 
-# Jellyfin (TV/Film/Sorozat)
+# 🎬 Filmek és sorozatok nézése (Jellyfin)
 
-**Webcím:** [https://tv.gyurus.hu](https://tv.gyurus.hu)
+**Honlap:** [https://tv.gyurus.hu](https://tv.gyurus.hu)
 
-## Mire jó?
-
-A Jellyfin a **saját Netflix-szerű lejátszónk**:
-
-- Filmek, sorozatok, esetleg zene
-- **Folytatás ott, ahol abbahagytad** - minden eszközön
-- Felirat/hangsáv választás
-- Chromecast / Cast támogatás Android TV-re
-
-:::tip Mikor használd?
-Ha filmet vagy sorozatot akarsz nézni a családi könyvtárból - akár utazás közben is, mobilneten!
+:::tip 👉 MIRE JÓ EZ?
+A saját **Netflix-szerű lejátszónk** - filmek, sorozatok, mesék.  
+**Folytatás ott, ahol abbahagytad** - minden eszközön (telefon, tablet, számítógép, TV).  
+Akár utazás közben is nézhetsz filmeket!
 :::
 
-## iOS (telefon/tablet)
+---
 
-### App telepítése
-- **[Jellyfin Mobile](https://apps.apple.com/us/app/jellyfin-mobile/id1480192618?mt=8)** – hivatalos kliens.
-- **[Swiftfin](https://apps.apple.com/ca/app/swiftfin/id1604098728)** – Apple eszközökön gyorsabb, ha a Jellyfin Mobile akadozik.
+## ⏱️ Mennyi időbe telik?
+**3-5 perc** az első beállítás telefonon vagy TV-n, utána már csak belépsz és nézhetsz.
 
-:::tip Melyiket válaszd?
-Kezdd a **Jellyfin Mobile**-lal. Ha lejátszási hiba vagy felirat gond van, próbáld ki a **Swiftfin**-t.
+## 📱 Mire lesz szükséged?
+- iPhone/iPad **vagy** Android telefon **vagy** számítógép **vagy** TV
+- Wi-Fi vagy mobilnet
+- Az e-mail címed és jelszavad (amit a családi rendszerhez kaptál)
+
+---
+
+---
+
+## 🚀 START - TELEFON/TABLET (iPhone/iPad)
+
+### 1️⃣ lépés: Program letöltése
+
+**Melyik programot válaszd?**
+Van két lehetőség - kezdd az elsővel, ha az nem megy jól, próbáld a másodikat:
+
+**A) Jellyfin Mobile** (hivatalos, általában jó)
+1. Nyisd meg az **App Store**-t
+2. Keresd: **Jellyfin Mobile**
+3. Koppints a **LETÖLTÉS** gombra
+
+**B) Swiftfin** (gyorsabb Apple eszközökön, ha akadozik a Jellyfin)
+1. Nyisd meg az **App Store**-t
+2. Keresd: **Swiftfin**
+3. Koppints a **LETÖLTÉS** gombra
+
+![App Store keresés - Jellyfin Mobile és Swiftfin találatok](/img/jellyfin/kep1.png)
+
+---
+
+### 2️⃣ lépés: Belépés
+
+1.  Nyisd meg a letöltött programot (Jellyfin vagy Swiftfin).
+2.  A szerver hozzáadása képernyőn (**"Add Server"**), írd be a következőt: `https://tv.gyurus.hu`
+3.  Koppints a **Connect** (Csatlakozás) gombra.
+
+![Jellyfin "Add Server" képernyő](/img/jellyfin/kep2.png)
+
+4.  **Ezután a belépés következik.** A program megnyit egy webes bejelentkező oldalt.
+5.  Ezen az oldalon add meg az **e-mail címedet (vagy felhasználónevedet)** és a **jelszavadat**.
+6.  Koppints a **Sign In** (Belépés) gombra. Sikeres belépés után a rendszer automatikusan visszaléptet a programba.
+
+![Jellyfin bejelentkezés](/img/jellyfin/kep3.png)
+
+7.  Ha a fiókodhoz több profil tartozik, válaszd ki a sajátodat a listából.
+
+---
+
+### 3️⃣ lépés: Film keresése és nézése
+
+1. A **főképernyőn** látod:
+   - **Continue Watching** (Folytatás) - ha már elkezdtél valamit
+   - **Latest Movies** (Legújabb filmek)
+   - **Latest Shows** (Legújabb sorozatok)
+
+![Jellyfin főképernyő iPhone-on](/img/jellyfin/kep4.png)
+
+2. **Kereséshez:** Koppints a **nagyító** ikonra (jobb felül), írd be a film címét
+
+3. **Film indítása:**
+   - Koppints a film borítójára
+   - Koppints: **Play** (Lejátszás) vagy **▶️** gomb
+
+
+
+---
+
+## ✅ KÉSZ VAGY! Mit fogsz látni?
+
+Ha minden rendben van:
+- **Elindul a film** teljes képernyőn
+- Látod a **lejátszás idejét** alul (pl. 15:23 / 1:45:00)
+- **Felirat** megjelenik, ha bekapcsoltad
+- **Szünet gomb** a képernyőre koppintva
+
+---
+
+---
+
+## 💻 SZÁMÍTÓGÉPEN (Mac/Windows)
+
+Nem kell program - elég a böngésző!
+
+### Hogyan nézz filmet gépen:
+
+1. Nyiss meg egy **böngészőt** (Chrome, Edge, Safari)
+2. Írd be: `https://tv.gyurus.hu`
+3. **Jelentkezz be.** A már ismert webes felületen add meg az **e-mail címedet** és **jelszavadat**, majd kattints a **Sign In** gombra.
+4. Ugyanaz a felület, mint telefonon:
+   - **Continue Watching** (Folytatás)
+   - **Latest Movies** (Filmek)
+   - **Latest Shows** (Sorozatok)
+
+5. **Film indítás:** Kattints a borítóra → **Play** gomb
+6. **Felirat/Hangsáv:** Lejátszó alján az ikonokkal állítható
+
+### 💡 Tippek számítógépen:
+- **Szóköz** = Szünet/Lejátszás
+- **Nyíl gombok** = Előre/hátra ugrás
+- **F** billentyű = Teljes képernyő
+- Jobb klikk a filmkártyán → **Új lap** = megtartod a listát
+
+---
+
+## 📺 TV-N NÉZÉS
+
+### A) Android TV / Google TV (pl. Sony, Philips, Xiaomi TV-k)
+
+**1️⃣ Program telepítése TV-n:**
+1. Nyisd meg a **Google Play Áruház**-at az Android TV-n (távirányítóval)
+2. Keresd: **Jellyfin for Android TV**
+   - ℹ️ *Színes háromszög ikon*
+3. Telepítsd
+
+
+
+**2️⃣ Belépés TV-n:**
+1. Indítsd el a **Jellyfin** appot
+2. Válaszd: **Add Server** (Szerver hozzáadása)
+3. Írd be: `https://tv.gyurus.hu`
+4. Kattints: **Connect**
+5. Írd be az **e-mail címedet** vagy **felhasználónevedet**
+6. Írd be a **jelszavadat**
+7. Válaszd ki a **profilodat**
+
+**3️⃣ Navigálás:**
+- **Távirányító navigációs gyűrűjével** mozogj
+- **OK gomb** = Film indítás
+- **Vissza gomb** = Kilépés
+
+---
+
+### B) Chromecast / Képernyő átküldés TV-re
+
+**Android telefonról:**
+1. Nyisd meg a Jellyfin appot a telefonodon
+2. Jobb felül koppints a **Cast** (átküldés) ikonra
+3. Válaszd ki a **TV-t** vagy **Chromecastot**
+4. Indítsd a filmet - megjelenik a TV-n!
+
+**Chrome böngészőből (Mac/PC):**
+1. Nyisd meg a Jellyfin oldalt Chrome-ban
+2. Kattints a három pontra (⋮)
+3. Válaszd: **Cast** (Átküldés)
+4. Válaszd ki a **TV-t**
+5. Válaszd: Jellyfin lap átküldése
+
+
+
+:::info iPhone/iPad és Chromecast
+iPhone-ról/iPadről jelenleg nincs közvetlen átküldés. Használd inkább az Android TV-s Jellyfin appot, vagy csatlakoztass HDMI kábelt.
 :::
 
-### Első belépés telefonon
-1. Nyisd meg az appot (Jellyfin vagy Swiftfin).
-2. Írd be a szervercímet: `https://tv.gyurus.hu` majd koppints **Connect**.
-3. A Jellyfin saját belépőképernyője jelenik meg – ide írd be ugyanazt a felhasználónevet vagy e-mail címet és jelszót, amit Authentikhez is használsz (nem dob át külön oldalra).
-4. Ha több profil látszik, válaszd a sajátodat.
+---
 
-### Film vagy sorozat nézése
-- Kezdőképernyőn látod a **Continue Watching** sort és az ajánlókat.
-- Kereséshez koppints a nagyító ikonra és írd be a címet.
-- Lejátszáshoz koppints a borítóra → **Play / Lejátszás**.
-- Feliratnál: lejátszás közben koppints, válaszd a **Subtitles** ikont és állíts magyarra.
-- Hangsávnál: ugyanitt az **Audio** ikonra koppints.
+### C) HDMI kábel
 
-## Asztali gép (Mac/PC)
+**Legegyszerűbb megoldás:**
+1. Csatlakoztasd a **laptop**ot a **TV-hez** HDMI kábellel
+2. Nyisd meg a Jellyfin oldalt a böngészőben
+3. Kapcsolj **teljes képernyőre** (F billentyű)
+4. Indítsd a filmet!
 
-### Böngészős használat
-1. Nyiss Chrome/Edge/Safarit és írd be: `https://tv.gyurus.hu`.
-2. Jelentkezz be Authentikkel.
-3. A felület ugyanaz, mint mobilon: **Continue Watching**, **Latest Movies**, **Latest Shows**.
-4. Film indításához kattints a borítóra → **Play**; felirat/hangsáv a lejátszó alján állítható.
-5. AirPlay/Chromecast ikon a lejátszó jobb felső sarkában található.
+---
 
-### Tippek számítógépen
-- Használd a szóközt Play/Pause-ra, a nyíl gombokat ugráshoz.
-- Nyiss új lapot jobb gombbal a filmkártyán, hogy ne veszítsd el a listát.
-- Külső felirat feltöltéséhez a lejátszóban válaszd a **Subtitles → Upload** opciót.
+## 💡 TIPPEK
 
-## TV beállítás
+### TV módra kapcsolás
+Ha TV-n nézed, állítsd be a **nagy kijelző módot:**
+1. Menj a **Settings** (Beállítások) menübe
+2. Válaszd: **Display** (Megjelenítés)
+3. Kapcsold be: **TV mode** vagy **Large display**
 
-### Android TV / Google TV
-1. Nyisd meg a **Google Play Áruházat** az Android TV-n.
-2. Keresd meg a **Jellyfin for Android TV** alkalmazást (színes háromszög ikon), majd telepítsd.
-3. Indítás után válaszd az **Add Server** opciót, írd be: `https://tv.gyurus.hu`, majd kattints **Connect**.
-4. A TV-n megjelenő bejelentkező mezőkbe közvetlenül írd be az Authentikhez tartozó felhasználónevedet vagy e-mail címedet, illetve a jelszavadat (nem vált át másik oldalra).
-5. Válaszd ki a profilodat – megjelenik a TV-re optimalizált menü (**Folytatás**, **Filmek**, **Sorozatok**).
-6. A távirányító navigációs gyűrűjével mozogj, az OK gombbal indítsd a lejátszást, a vissza gombbal lépj vissza.
+Így **nagyobb betűket** és **egyszerűbb menüt** kapsz!
 
-### Cast / Chromecast
-- **Android telefonról:** a Jellyfin Android appban koppints a jobb felső **Cast** ikonra, válaszd ki az Android TV-t vagy Chromecastot, majd indítsd a filmet.
-- **Chrome böngészőből (Mac/PC):** kattints a három pontra → **Cast**, válaszd ki a TV-t, majd a Jellyfin lapot tükrözd.
-- **iPhone/iPad:** jelenleg nincs AirPlay támogatás, ezért TV-n való lejátszáshoz használj Android TV-s Jellyfin appot vagy külső Chromecast eszközt.
+---
 
-### HDMI kábel
-Ha nincs Cast, egyszerűen csatlakoztasd a laptopot HDMI-vel a TV-hez, nyisd meg a Jellyfin oldalt és teljes képernyőn játszd le a tartalmat.
+---
 
-:::tip TV nézet finomhangolása
-A Jellyfin beállításokban (Settings → Display) kapcsold be a **TV mode / Large display** opciót, így nagyobb betűket és egyszerűbb menüt kapsz tévén.
-:::
+## ❌ MI A BAJA? - Gyakori hibák
 
-## Ha akadozik a videó
+### Akadozik, pufferél a videó
 
-:::caution Ellenőrizd ezeket:
-1. **Wi-Fi jobb, mint mobilnet** - ha otthon vagy, csatlakozz Wi-Fi-re
-2. **Zárd be a többi appot** - a háttérben futó appok lassíthatnak
-3. **Próbáld lejjebb venni a minőséget** (ha van ilyen opció a lejátszóban)
-4. **Próbáld a másik klienst** (Jellyfin vagy Swiftfin - válts a kettő között)
-:::
+**Próbáld ezt:**
 
-### Ha csak otthon megy
-Ha azt tapasztalod, hogy mobilneten nem indul, de otthoni Wi-Fi-n igen, szólj: lehet, hogy a távoli elérésen kell finomhangolni.
+1. **Wi-Fi jobb, mint mobilnet**
+   - Ha otthon vagy, kapcsolódj Wi-Fi-ra
+   - Mobilneten lassabb lehet, főleg HD minőségben
 
-### Ha hibaüzenet jelenik meg
-Pl. "Playback error" vagy "Unable to play":
-1. Készíts róla képernyőképet
-2. Küldd el nekem
-3. Megnézem, mit kell állítani a szerveren (pl. transzkódolás)
+2. **Zárd be a többi programot**
+   - A háttérben futó appok lassíthatnak
+   - Indítsd újra a telefont/tabletet
 
-:::info Segítség
-Ha gyakran akadozik: szólj nekem, és megnézem a szerver beállításait!
-:::
+3. **Próbáld lejjebb venni a minőséget**
+   - Lejátszás közben koppints a **fogaskerék** (⚙️) ikonra
+   - Válaszd ki az **alacsonyabb minőséget** (pl. 720p helyett 480p)
 
-:::info Segítség asztali gépen
-Ha sok lap van megnyitva, tedd a Jellyfin ablakot külön Desktopra vagy teljes képernyőre – így kevesebb zavaró tényező lesz és stabilabb a lejátszás.
-:::
+4. **Próbáld a másik programot**
+   - Ha **Jellyfin Mobile** akadozik → próbáld a **Swiftfin**-t
+   - Ha **Swiftfin** akadozik → próbáld a **Jellyfin Mobile**-t
 
-## További ötletek
-- [Jellyfin – mit tudsz csinálni?](/docs/otletek/jellyfin-otletek): AirPlay, gyerekbarát profil, gyors felirat/hangsáv váltás.
+### "Playback error" vagy "Unable to play" hibaüzenet
+
+**Mit jelent?**  
+A fájl formátuma vagy mérete miatt nem tudja lejátszani.
+
+**Mit csinálj?**
+1. **Készíts képernyőképet** a hibaüzenetről
+2. Próbáld meg **másik eszközön** (pl. gépen böngészőben)
+3. Ha ott sem megy, jelezd - lehet be kell állítani a szervert
+
+### Csak otthon megy, mobilneten nem indul
+
+**Lehet, hogy:**
+- Mobilneten le van tiltva a távoli elérés
+- Jelezd, hogy be tudjam állítani
+
+### Kijelentkezett a program
+
+**Belépés újra:**
+1. Add meg az **e-mail címed** vagy **felhasználóneved**
+2. Add meg a **jelszavad**
+3. Válaszd ki a **profilod**
+
+---
+
+## 📞 SEGÍTSÉG KELL?
+
+### ✅ Próbáld először:
+1. **Van-e internet?** Nyiss meg egy weboldalt (pl. Google)
+2. **Indítsd újra** a programot (zárd be teljesen, nyisd meg újra)
+3. **Próbálj másik filmet** - lehet az adott fájllal van gond
+4. **Csökkentsd a minőséget** (lásd fent)
+
+### 📸 Készíts képernyőképet:
+Ha hibaüzenet jelenik meg:
+- **Készíts képernyőképet** (iPhone: Hangerő fel + oldalsó gomb)
+- Így tudod megmutatni, mi a probléma
+
+---
+
+## 🎯 TOVÁBBI LEHETŐSÉGEK
+
+Ha már megy az alapverzió és kíváncsi vagy, mit tudsz még csinálni:
+- [Filmek és sorozatok - Tippek és trükkök](/docs/otletek/jellyfin-otletek)
+  - Gyerekbarát profil
+  - Külső felirat feltöltése
+  - Lejátszási lista készítése
+

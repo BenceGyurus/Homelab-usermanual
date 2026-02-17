@@ -2,60 +2,110 @@
 sidebar_position: 1
 ---
 
-# Üdvözlünk a Gyürüs Homelab kézikönyvben!
+# 👋 Üdvözlünk a Gyürüs Homelab kézikönyvben!
 
-Ezt az útmutatót úgy írtuk, hogy a család idősebb tagjai is biztonsággal tudják használni a szerver szolgáltatásait. Minden oldal rövid lépésekből, nagy szövegből és egyszerű magyarázatból áll.
+Ezt az útmutatót **úgy írtuk, hogy a család minden tagja** biztonsággal tudja használni a szerver szolgáltatásait.
 
-:::info Kezdés 1 perc alatt
-- 1. Olvasd el a [Szülőknek gyorstalpaló](./szuloknek-gyorstalpalo.md) oldalt
-- 2. Nyisd meg a bal oldalon azt a szolgáltatást, amit használni szeretnél
-- 3. Kövesd a **3 lépésben** dobozt – ott minden indításhoz szükséges mozdulat le van írva
-- 4. Figyeld a címeket: az **iOS (telefon/tablet)** részek iPhone/iPad lépéseket jelentenek, az **Asztali gép (Mac/PC)** részek a számítógépes megoldásokat
+Minden oldal **rövid lépésekből**, **nagy szövegből** és **egyszerű magyarázatból** áll - **még akkor is**, ha eddig nem használtál ilyen dolgokat!
+
+---
+
+## 🚀 KEZDÉS 2 PERCBEN
+
+**Mit csinálj most?**
+
+1. **Olvasd el:** [Szülőknek gyorstalpaló](./szuloknek-gyorstalpalo.md) - egyoldalas összefoglaló
+2. **Válassz egy szolgáltatást** a bal oldali menüből (mit szeretnél használni?)
+3. **Kövesd a lépéseket** - minden oldalon van egy **"🚀 START - HÁROM LÉPÉS"** rész
+4. **Figyeld a címeket:**
+   - **📱 TELEFON/TABLET** = iPhone/iPad lépések
+   - **💻 SZÁMÍTÓGÉP** = Mac/Windows lépések
+
+---
+
+## 🔑 BELÉPÉS - Hogyan működik?
+
+Mindenki **saját fiókot kap** tőlem egy **regisztrációs linken** keresztül.
+
+**Mit jelent ez?**
+- **Saját e-mail + jelszó** - nem kell közös adatokat megjegyezni
+- **Biztonságos** - ha kilépsz egy helyen, máshol is kilépsz
+- **Megjegyezhető** - ha a készülék megjegyzi, legközelebb automatikusan belépsz
+
+:::tip Elfelejtett jelszó?
+Ha elfelejtetted a jelszavad, jelezd felém - beállítok egy újat.  
+Lásd: [Jelszókezelés](./szolgaltatasok/authentik.md)
 :::
 
-## Mit kell tudni a bejelentkezésről?
+---
 
-Mindenki saját **Authentik** fiókot kap tőlem egy regisztrációs linken keresztül.
+---
 
-- **Saját e-mail + jelszó**: nem kell közös adatokat megjegyezni
-- **Biztonságos**: ha kilépsz egy helyen, máshol is kilépsz
-- **Maradjon meg**: ha a készülék megjegyzi, legközelebb automatikusan belépsz
+## 📱 SZOLGÁLTATÁSOK - Mit tudsz használni?
 
-:::tip Elfelejtett jelszó
-Szólj nekem telefonon vagy üzenetben, és azonnal beállítok újat.
+| Szolgáltatás | Mire jó? | Honlap |
+|--------------|----------|--------|
+| 📸 **Fotók** (Immich) | Telefonos képek automatikus mentése | [photos.gyurus.hu](https://photos.gyurus.hu) |
+| 📁 **Fájlok** (Seafile) | Megosztott dokumentumok, családi mappák | [drive.gyurus.hu](https://drive.gyurus.hu) |
+| 🎬 **Filmek** (Jellyfin) | Filmek, sorozatok, mesék - mint a Netflix | [tv.gyurus.hu](https://tv.gyurus.hu) |
+| 🎯 **Film kérés** (Jellyseerr) | Új film/sorozat igénylése | [sorozat.gyurus.hu](https://sorozat.gyurus.hu) |
+| 📄 **Számlák** (Paperless) | Számlák, szerződések kereshető archiválása | [paperles.gyurus.hu](https://paperles.gyurus.hu) |
+| 📧 **Ideiglenes e-mail** (Maildrop) | Egyszeri használatos e-mail cím regisztrációkhoz | [maildrop.gyurus.hu](https://maildrop.gyurus.hu) |
+| 🏠 **Okosotthon** (Home Assistant) | Lámpák, kapcsolók, automatizmusok | [home.gyurus.hu](https://home.gyurus.hu) |
+| 🖨️ **Nyomtató** | Vezeték nélküli nyomtatás (AirPrint) | [Útmutató](./szolgaltatasok/nyomtato.md) |
+
+:::tip Kattints a névre!
+Kattints bármelyik szolgáltatás **nevére** (pl. "Fotók") - megnyílik a részletes útmutató!
 :::
 
-## Szolgáltatások egyszerűen
+---
 
-| Szolgáltatás | Mire jó? | Hova kattints? |
-|--------------|----------|----------------|
-| **Fotók** (Immich) | Telefonos képek mentése | [photos.gyurus.hu](https://photos.gyurus.hu) |
-| **Fájlok** (Seafile) | Megosztott dokumentumok, családi mappák | [drive.gyurus.hu](https://drive.gyurus.hu) |
-| **TV/Film** (Jellyfin) | Filmek, sorozatok, mesék | [tv.gyurus.hu](https://tv.gyurus.hu) |
-| **Sorozat kérés** (Jellyseerr) | Új film/sorozat igény | [sorozat.gyurus.hu](https://sorozat.gyurus.hu) |
-| **Dokumentumok** (Paperless) | Számlák, szerződések megőrzése | [paperles.gyurus.hu](https://paperles.gyurus.hu) |
-| **Egyszer használatos e-mail** (Maildrop) | Regisztrációkhoz ideiglenes cím | [maildrop.gyurus.hu](https://maildrop.gyurus.hu) |
-| **Okosotthon** (Home Assistant) | Lámpák, kapcsolók, automatizmusok | [home.gyurus.hu](https://home.gyurus.hu) |
+## 📖 HOGYAN OLVASD AZ ÚTMUTATÓKAT?
 
-## Hogyan olvasd az útmutatókat?
+Minden oldal **ugyanúgy épül fel** - így könnyen eligazodsz:
 
-- **3 lépésben**: minden oldalon egy rövid blokk mutatja, mit kell tenni
-- **Mit fogsz látni?**: képleírások (hamarosan képernyőképekkel), hogy tudd, jó helyen jársz
-- **Sürgős segítség**: minden oldal végén ott a telefonszám és teendő, ha bármi elakad
+### 1️⃣ **"👉 MIRE JÓ EZ?"** doboz
+Első pillantásra megérted, mire való a szolgáltatás.
 
-:::info Képek
-Amíg a végleges képernyőfotók készülnek, "Kép: ..." jelölést használtunk, hogy nyomtatásban se zavarjon.
-:::
+### 2️⃣ **"🚀 START - HÁROM LÉPÉS"** rész
+Pontosan leírja, mit kell tenned - lépésről lépésre.
 
-## Mit tudok csinálni ezekkel az appokkal?
+### 3️⃣ **"✅ KÉSZ VAGY!"** rész
+Megmondja, mit fogsz látni, ha sikerült.
+
+### 4️⃣ **"❌ MI A BAJA?"** rész
+Ha valami nem megy - gyakori hibák és megoldások.
+
+### 5️⃣ **Képhelyek**
+**"📷 KÉP #1 IDE JÖN:"** - pontosan le van írva, milyen képernyőképet kell látnod.
+
+ℹ️ *A végleges képernyőfotók hamarosan készülnek el!*
+
+---
+
+## 💡 MIT TUDSZ CSINÁLNI EZEKKEL?
 
 Ha konkrét ötlet kell, nézd meg ezeket a rövid cikkeket:
 
-- [Immich ötletek](/docs/otletek/immich-otletek): családi album, tárhely takarítás, nagyszülőknek való megosztás
-- [Seafile ötletek](/docs/otletek/seafile-otletek): számlák beküldése, linkes megosztás, offline olvasás
-- [Jellyfin ötletek](/docs/otletek/jellyfin-otletek): AirPlay a TV-re, gyerek profil, felirat trükkök
-- [Jellyseerr ötletek](/docs/otletek/jellyseerr-otletek): teljes sorozat kérés, évad kiválasztás, állapot követés
+- [Fotók - Ötletek](/docs/otletek/immich-otletek): családi album, tárhely takarítás, nagyszülőknek való megosztás
+- [Fájlok - Ötletek](/docs/otletek/seafile-otletek): számlák beküldése, linkes megosztás, offline olvasás
+- [Filmek - Ötletek](/docs/otletek/jellyfin-otletek): TV-re küldés, gyerek profil, felirat trükkök
+- [Film kérés - Ötletek](/docs/otletek/jellyseerr-otletek): teljes sorozat kérés, évad kiválasztás, állapot követés
 
-## Ha elakadnál
+---
 
-Hívj fel vagy írj üzenetet – az elérhetőségeimet ugyanúgy használhatod, mint eddig. A [Szülőknek gyorstalpaló](./szuloknek-gyorstalpalo.md) oldalon is emlékeztetőt találsz erről.
+## 🆘 HA ELAKADNÁL
+
+**Ne aggódj!** Senki sem születik úgy, hogy tudja ezeket.
+
+**Mit csinálj:**
+1. ✅ Nézd meg a **"❌ MI A BAJA?"** részt az adott oldalon
+2. ✅ Olvasd el a [Szülőknek gyorstalpaló](./szuloknek-gyorstalpalo.md) oldalt
+3. ✅ **Készíts képernyőképet** (iPhone: Hangerő fel + oldalsó gomb)
+4. ✅ Jelezd felém - szívesen segítek!
+
+:::info Emlékezz!
+**Nincs olyan kérdés, ami buta lenne!**  
+Mindenki így tanul - lépésről lépésre.
+:::
+

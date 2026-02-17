@@ -2,131 +2,318 @@
 sidebar_position: 5
 ---
 
-# Paperless-ngx (Dokumentumok)
+# 📄 Számlák és dokumentumok archiválása (Paperless)
 
-**Webcím:** [https://paperles.gyurus.hu](https://paperles.gyurus.hu)
+**Honlap:** [https://paperles.gyurus.hu](https://paperles.gyurus.hu)
 
-## Mire jó?
-
-A Paperless-ngx egy **dokumentumtároló és kereshető archívum**:
-
-- Számlák, garanciajegyek, szerződések, orvosi papírok
-- Beolvasott (scan) dokumentumok feltöltése
-- **Bármilyen PDF-et feltölthetsz** (nem csak telefonnal szkenneltet)
-- **Teljes szövegben kereshető** (OCR) - megtalál egy szót a dokumentumon belül is!
-- Címkézés (tagek), dokumentumtípus, partner (pl. szolgáltató)
-
-:::tip Mikor használd?
-- Számlákat akarsz elmenteni (rezsi, online vásárlás)
-- Fontos dokumentumokat akarsz biztonságban tudni
-- Később gyorsan meg akarod találni egy régi számlát/szerződést
+:::tip 👉 MIRE JÓ EZ?
+**Kereshető dokumentum archívum** - mint egy digitális irattár.  
+Feltölthetsz számlákat, garanciajegyeket, szerződéseket, orvosi papírokat.  
+**Bármilyen szót megtalál** a dokumentumon belül - még akkor is, ha csak a PDF-ben van benne!
 :::
 
-## iOS (telefon/tablet)
+---
 
-### Böngészőből (Safari)
-1. Nyisd meg Safariban: **[https://paperles.gyurus.hu](https://paperles.gyurus.hu)**.
-2. Jelentkezz be **Authentik** adataiddal (e-mail + jelszó).
-3. A dokumentumlista megjelenik, felül keresőmezővel és szűrőkkel.
+## ⏱️ Mennyi időbe telik?
+**3 perc** dokumentum feltöltése, **5 perc** ha beolvasással (scan).
 
-:::tip Mire lesz szükséged?
-- iPhone/iPad + internet
-- Authentik felhasználó
-- A feltöltendő dokumentum PDF-ben vagy fotóként
-:::
+## 📱 Mire lesz szükséged?
+- Telefon/tablet **vagy** számítógép
+- Internet
+- A feltöltendő dokumentum (PDF vagy fotó)
 
-<!-- KÉP HELYE: Paperless dokumentumlista iPhone kijelzőn, látszik a kereső és szűrők, alatta dokumentum kártyák -->
+---
 
-### Dokumentum feltöltése iPhone-ról
+## 🔍 Mire használd?
 
-#### Opció A: Safari feltöltés gomb
+**Példák:**
+- ✅ Rezsi számlák (áram, víz, gáz, net)
+- ✅ Online vásárlás számlái
+- ✅ Garanciajegyek (TV, gép, telefon)
+- ✅ Szerződések (biztosítás, telefon)
+- ✅ Orvosi leletek, receptek
 
-1. A Paperless oldalon keresd az **Upload / Feltöltés** gombot (általában jobb felső sarok)
-2. Válaszd ki a fájlt a **Files / Fájlok** appból
-3. Várj, amíg befejezi a feltöltést
+**Előnyök:**
+- 🔍 **Keresés:** Pl. "Vodafone 2024 március" → azonnal megtalálja
+- 🏷️ **Címkézés:** Pl. "számla", "garancia", "orvosi"
+- 📅 **Dátum szerint** rendezhető
+- 💾 **Biztonságban** a szerveren
 
-<!-- KÉP HELYE: Paperless feltöltés panel, ahol látszik a fájl kiválasztása és feltöltés állapota (progress bar) -->
+---
 
-:::note Mi történik feltöltés után?
-A Paperless a feltöltött dokumentumot feldolgozza (OCR). Ez pár másodperctől pár percig tarthat. Ha nem látod azonnal, várj egy kicsit és frissíts.
-:::
+---
 
-#### Opció B: Dokumentum beolvasása iPhone-nal
+## 🚀 START - TELEFON/TABLET (iPhone/iPad)
 
-Az iPhone-odon beépített **scanner** funkció van! Így használd:
+Nem kell program - a böngészőből működik!
 
-1. Nyisd meg a **Files / Fájlok** appot
-2. Menj a **Browse** részbe
-3. Koppints a jobb felső **...** (három pont) gombra
-4. Válaszd: **Scan Documents / Dokumentum beolvasása**
-5. Tartsd a kamerát a dokumentum fölé
-6. Az iPhone automatikusan felismeri és lefényképezi
-7. Ha kell, adj hozzá több oldalt
-8. Koppints: **Save / Mentés** (PDF-ként menti)
-9. Töltsd fel a PDF-et a Paperless-be
+### 1️⃣ lépés: Nyisd meg az oldalt
 
-<!-- KÉP HELYE: iOS Files "Scan Documents" képernyő, ahol látszik a kamera keret és a dokumentum detektálása -->
+1. Nyisd meg **Safari**-t (vagy másik böngészőt)
+2. Írd be: `https://paperles.gyurus.hu`
+3. Jelentkezz be az **e-mail címeddel** és **jelszavaddal**
 
-:::tip Tipp
-A beolvasás után érdemes **jól látható nevet** adni a fájlnak, pl. "2024-01-15_Vodafone_szamla.pdf"
-:::
+**📷 KÉP #1 IDE JÖN:**
+> *Paperless főoldal Safari-ban*
+> - Látszik: Bejelentkezés utáni főoldal
+> - Látszik: Keresőmező felül
+> - Látszik: Dokumentumok listája
 
-## Asztali gép (Mac/Windows)
+---
 
-1. Nyiss meg egy böngészőt (Chrome, Edge, Safari), írd be: `https://paperles.gyurus.hu`.
-2. Jelentkezz be Authentikkel.
-3. Válaszd az **Upload documents** gombot, majd húzd rá a PDF-eket, vagy kattints a fájlválasztóra.
-4. A jobb oldali panelen azonnal állítsd be a címkéket, dokumentumtípust, partnert.
-5. Nagyobb mennyiségnél jelöld ki a fájlokat a mappában (Ctrl/Cmd + A) és egyben húzd be – sorban feldolgozza.
+### 2️⃣ lépés: Dokumentum beolvasása (szkennelés)
 
-**Miért jó asztaliról?**
-- Gyors drag & drop e-mailben kapott számlákhoz.
-- Nagy képernyőn kényelmesebb címkézni, kategorizálni.
-- A keresőmező azonnal előnézetet mutat, így pár kulcsszóval célba érsz.
+Az iPhone-odon **beépített szkenner** van!
 
-## Keresés és rendezés
+**Hogyan szkennelj dokumentumot:**
 
-### Keresés
-- Használd a felső **kereső mezőt**
-- Írd be, amit keresel: számla száma, név, dátum, összeg részletek
+1. Nyisd meg a **Fájlok** (Files) programot (kék mappa ikon)
+2. Alul koppints: **Browse** (Tallózás)
+3. Jobb felső sarokban koppints a **három pont** (•••) gombra
+4. Válaszd: **Scan Documents** (Dokumentum beolvasása)
+
+**📷 KÉP #2 IDE JÖN:**
+> *Files app menü*
+> - Látszik: Három pont menü
+> - Látszik: "Scan Documents" opció kiemelve
+
+5. **Tartsd a kamerát a dokumentum fölé**
+   - Automatikusan felismeri és lefényképezi!
+   - Sárga keret jelenik meg, ha jól van
+
+**📷 KÉP #3 IDE JÖN:**
+> *Scan Documents képernyő*
+> - Látszik: Kamera kép
+> - Látszik: Sárga/fehér keret a dokumentum körül
+> - Látszik: Automatikus felismerés
+
+6. Ha többoldalas (pl. szerződés):
+   - Fordítsd a következő oldalra
+   - Újra szkenneld (automatikusan folytatja)
+
+7. Koppints: **Save** (Mentés)
+   - PDF-ként menti el!
+
+8. **Adj nevet a fájlnak:**
+   - Pl.: "2024-02-15_Vodafone_szamla"
+   - Így később könnyebb megtalálni
+
+**📷 KÉP #4 IDE JÖN:**
+> *Mentés képernyő*
+> - Látszik: Fájlnév mező
+> - Látszik: "Save" gomb
+
+---
+
+### 3️⃣ lépés: Feltöltés a Paperless-be
+
+1. Menj vissza a **Safari**-ba (Paperless oldal)
+2. Keresd az **Upload** (Feltöltés) gombot
+   - Általában jobb felső sarokban
+
+**📷 KÉP #5 IDE JÖN:**
+> *Paperless feltöltés gomb*
+> - Látszik: "Upload" gomb kiemelve piros kerettel
+
+3. Kattints az **Upload** gombra
+4. Válaszd ki a **Files** (Fájlok) appból az előbb szkennelt PDF-et
+5. Koppints rá
+6. Várj, amíg feltöltődik
+
+**📷 KÉP #6 IDE JÖN:**
+> *Feltöltés folyamatban*
+> - Látszik: Progress bar (haladás sáv)
+> - Látszik: Fájlnév feltöltés alatt
+
+7. **Kész!** A dokumentum feldolgozás alatt van
+   - ℹ️ *Ez azt jelenti: a rendszer "olvassa" a szöveget, hogy kereshetővé váljon*
+   - **1-2 perc** múlva megjelenik a listában
+
+---
+
+## ✅ KÉSZ VAGY! Mit fogsz látni?
+
+Ha minden rendben:
+- A dokumentum **megjelenik a listában**
+- Látod a **dátumot**, **nevet**, esetleg **előnézetet**
+- **Koppintva megnyílik** a PDF
+
+**📷 KÉP #7 IDE JÖN:**
+> *Dokumentumlista feltöltött fájllal*
+> - Látszik: Új dokumentum a listában
+> - Látszik: Dátum, név, előnézet
+
+---
+
+---
+
+## 💻 SZÁMÍTÓGÉPEN (Mac/Windows)
+
+### Feltöltés és kezelés:
+
+1. Nyisd meg a **böngészőt** (Chrome, Edge, Safari)
+2. Írd be: `https://paperles.gyurus.hu`
+3. Jelentkezz be az **e-mail címeddel** és **jelszavaddal**
+
+**Feltöltés:**
+- **Kattints:** **Upload documents** (Dokumentumok feltöltése) gombra
+- **VAGY húzd rá** a PDF-eket az ablakba (drag & drop)
+
+**Több fájl egyszerre:**
+- Jelöld ki a mappában (Ctrl/Cmd + A)
+- Húzd be egyben
+- Sorban feldolgozza mindet!
+
+**Címkézés és kategorizálás:**
+- Jobb oldali panelen azonnal beállíthatod:
+  - **Címkék** (Tags): pl. "számla", "garancia"
+  - **Dokumentum típus** (Type): pl. "Számla", "Szerződés"
+  - **Partner** (Correspondent): pl. "Vodafone", "OTP"
+
+**Miért jó számítógépről?**
+- Gyors drag & drop e-mailből
+- Nagy képernyőn kényelmesebb rendezni
+- Batch (tömeges) feltöltés
+
+---
+
+## 🔍 KERESÉS - Hogyan találd meg a dokumentumot?
+
+### Keresőmező használata:
+
+1. Felül látod a **keresőmezőt**
+2. **Írd be**, amit keresel:
+   - Számla száma
+   - Cég neve (pl. "OTP", "Vodafone")
+   - Dátum (pl. "2024 március")
+   - Összeg részletek
+   - **Bármilyen szó**, ami a PDF-ben szerepel!
+
+**📷 KÉP #8 IDE JÖN:**
+> *Keresőmező példa*
+> - Látszik: Keresőmező "Vodafone" beírva
+> - Látszik: Találatok listája
 
 :::info Példa
-Ha beírod, hogy "OTP" vagy "Vodafone", sokszor azonnal kidobja a kapcsolódó dokumentumokat - még akkor is, ha a szöveg csak a PDF-en belül szerepel!
+Ha beírod, hogy **"OTP"** vagy **"Vodafone"**, sokszor azonnal kidobja a kapcsolódó dokumentumokat - **még akkor is, ha a szöveg csak a PDF-en belül szerepel!**
 :::
 
-### Szűrők
-- **Címkék/Tagek**: pl. "számla", "garancia", "orvosi"
-- **Típus**: pl. "Számla", "Szerződés"
-- **Partner**: pl. "Vodafone", "OTP", "Decathlon"
+---
 
-<!-- KÉP HELYE: Paperless szűrő panel, ahol látszanak a tag, típus és partner választók -->
+### Szűrők használata:
 
-## Dokumentum megosztása
+Ha sok dokumentumod van, szűrj:
 
-1. Nyisd meg a dokumentumot
-2. Keresd a **Download / Letöltés** vagy **Share** gombot
+**Bal oldali szűrő panel:**
+- **Tags (Címkék):** pl. "számla", "garancia", "orvosi"
+- **Document Type (Típus):** pl. "Számla", "Szerződés"
+- **Correspondent (Partner):** pl. "Vodafone", "OTP", "Decathlon"
+- **Date (Dátum):** válassz dátumtartományt
+
+**📷 KÉP #9 IDE JÖN:**
+> *Szűrő panel*
+> - Látszik: Tags, Type, Correspondent választók
+> - Látszik: Kiválasztott szűrők
+
+Kattints rájuk → automatikusan szűri a listát!
+
+---
+
+## 🏷️ CÍMKÉZÉS ÉS RENDSZEREZÉS
+
+### Hogyan adj címkét (tag) egy dokumentumnak?
+
+**Módszer 1: Feltöltés után**
+1. Nyisd meg a dokumentumot (kattints rá)
+2. Jobb oldalt keresd: **Tags** (Címkék)
+3. Kattints a **+ Add tag** gombra
+4. Írd be a címkét (pl. "számla", "fontos")
+5. Kattints **Save** (Mentés)
+
+**Módszer 2: Tömeges címkézés**
+1. Jelölj ki több dokumentumot (pipálással)
+2. Felül megjelenik: **Bulk edit** (Tömeges szerkesztés)
+3. Adj hozzá címkét az összeshez egyszerre!
+
+**📷 KÉP #10 IDE JÖN:**
+> *Bulk edit menü*
+> - Látszik: Kiválasztott dokumentumok
+> - Látszik: "Bulk edit" opciók
+
+### Tippek a rendezéshez:
+
+**Jó címkék (tags):**
+- "számla", "garancia", "orvosi", "fontos", "2024"
+
+**Jó dokumentum típusok:**
+- "Számla", "Szerződés", "Garancia", "Orvosi"
+
+**Jó partnerek (correspondents):**
+- Cégnév (pl. "Vodafone", "OTP", "E.ON")
+
+:::tip Egyszerű rendszer
+Nem kell mindent címkézni! A **keresés is működik** címkék nélkül.  
+De ha rendszerezed, később **gyorsabban megtalálod**.
+:::
+
+---
+
+## 💡 TIPPEK
+
+### 📥 Dokumentum letöltése
+
+1. Nyisd meg a dokumentumot (kattints rá)
+2. Keresd a **Download** (Letöltés) gombot
 3. A PDF letöltődik
-4. iOS Share menüből küldheted pl. Üzenetekben, vagy mentheted a Fájlokba
+4. iPhone-on: **Share** menüből mentheted a Fájlokba
 
-## Tippek, hogy később könnyű legyen megtalálni
+### 📧 E-mailben kapott számlák
 
-- Ha tudsz, adj a dokumentumnak értelmes nevet (dátum + szolgáltató + típus)
-- Használj címkéket (pl. "számla", "garancia")
-- Ha valami nagyon fontos, mentsd a PDF-et a Seafile-be is (dupla biztonság)
- - Az e-mailben kapott PDF-eket közvetlenül a Paperless-be töltsd (nincs szükség újraszkennelésre)
+**Ne nyomtasd ki és szkenneld be!**
 
-## Gyakori kérdések
+Helyette:
+1. Nyisd meg az **e-mailt** a gépen
+2. Töltsd le a **csatolt PDF-et**
+3. **Húzd rá** közvetlenül a Paperless ablakra
+
+Nincs szükség újraszkennelésre!
+
+---
+
+## ❌ MI A BAJA? - Gyakori hibák
 
 ### Nem találom a feltöltött dokumentumot
-- Lehet, hogy még fut az **OCR/feldolgozás**
-- Várj pár percet és **frissíts** (húzd le a listát vagy nyomd meg a frissítés gombot)
+
+**Lehet, hogy:**
+- Még fut a **feldolgozás** (szövegfelismerés)
+- Várj **1-2 percet** és **frissíts** (F5 vagy húzd le a listát)
+
+**Mit csinálj:**
+1. ✅ Várj pár percet
+2. ✅ Frissítsd az oldalt (F5 vagy húzd le a listát iPhone-on)
+3. ✅ Nézd meg van-e **szűrő bekapcsolva** - lehet ezért nem látod
 
 ### Hogyan címkézzem a dokumentumokat?
-1. Nyisd meg a dokumentumot
-2. Keresd az **Edit / Szerkesztés** gombot
-3. Add hozzá a megfelelő címkéket/típust/partnert
-4. Mentés
 
-:::info Segítség
-Ha elakadsz: küldj képernyőképet (dokumentumlista vagy hibaüzenet), és megmondom, mi a teendő!
-:::
+1. Nyisd meg a dokumentumot
+2. Keresd az **Edit** (Szerkesztés) gombot vagy jobb oldali panelt
+3. Add hozzá a megfelelő **címkéket/típust/partnert**
+4. Kattints: **Save** (Mentés)
+
+### Túl sok dokumentum, nehéz eligazodni
+
+**Próbáld ezt:**
+1. ✅ Használj **címkéket** (tags) - pl. "2024", "fontos"
+2. ✅ Állíts be **dátum szűrőt**
+3. ✅ Használd a **keresőt** konkrét szavakkal
+
+---
+
+## 🎯 TOVÁBBI LEHETŐSÉGEK
+
+Ha kíváncsi vagy a részletekre:
+- [Dokumentumok - Tippek és trükkök](/docs/otletek/paperless-otletek) (ha van ilyen oldal)
+  - Automatikus címkézés
+  - Email import
+  - Workflow beállítás
+

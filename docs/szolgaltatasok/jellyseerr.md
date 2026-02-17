@@ -2,102 +2,115 @@
 sidebar_position: 4
 ---
 
-# Jellyseerr (Sorozat/film kérés)
+# 🙏 Filmek és sorozatok kérése (Jellyseerr)
 
-**Webcím:** [https://sorozat.gyurus.hu](https://sorozat.gyurus.hu)
+**Honlap:** [https://jellyseerr.gyur.us](https://jellyseerr.gyur.us)
 
-## Mire jó?
-
-A Jellyseerr egy **"kívánságlista" és kereső felület**:
-
-- Megkeresed a filmet vagy sorozatot, amit néznél
-- **1 gombbal kéred**, hogy kerüljön fel a könyvtárba
-- Jelzi, ha már elérhető lejátszáshoz a Jellyfin-ben
-
-:::tip Így működik
-1. Te kérsz egy filmet/sorozatot
-2. A rendszer automatikusan letölti
-3. Pár óra múlva már nézheted a Jellyfin-ben!
+:::tip 👉 MIRE JÓ EZ?
+**Hiányzik egy film vagy sorozat?** Itt kérheted, hogy felkerüljön a szerverre.  
+A program automatikusan letölti, és amint elérhető, **megnézheted a Jellyfinben**.
 :::
 
-## iOS (telefon/tablet)
+---
 
-:::caution Első bejelentkezés
-Mielőtt Jellyseerr-be lépnél, egyszer jelentkezz be a Jellyfinbe (ugyanazzal a felhasználónév/jelszó párossal). Ez aktiválja a profilodat, így az Authentik el fogja fogadni a Jellyseerr belépést.
-:::
+## ⚠️ FONTOS TUDNIVALÓ
 
-### Böngészőben (Safari)
-1. Nyisd meg Safariban: **[https://sorozat.gyurus.hu](https://sorozat.gyurus.hu)**.
-2. A Jellyseerr saját belépőképernyőt mutat, itt közvetlenül írd be az Authentiknál használt felhasználónevedet vagy e-mail címedet, valamint a jelszavadat (nem irányít át máshova).
-3. A keresőmezőbe írd be a film vagy sorozat címét.
-4. Nyisd meg a találatot, koppints a **Request / Kérés** gombra.
-5. Sorozatnál jelöld be az évadokat, majd erősítsd meg a kérést.
+**Csak akkor tudsz belépni, ha előtte már legalább egyszer bejelentkeztél a [Jellyfinbe](https://tv.gyurus.hu)!**
 
-:::tip Mire lesz szükséged?
-- iPhone/iPad (böngészővel)
-- Stabil internetkapcsolat
-- Authentik bejelentkezés
-:::
+Ha a Jellyfinbe még sosem léptél be, először azt tedd meg a [Jellyfin útmutató](/docs/szolgaltatasok/jellyfin) alapján.
 
-:::note Ha már elérhető
-Ha **Available** jelzést látsz, a tartalom már a Jellyfin-ben van – nyisd meg ott, nem kell újra kérni.
-:::
+---
 
-<!-- KÉP HELYE: Jellyseerr kezdőképernyő iPhone-on Safari böngészőben, látszik a Search mező és néhány film poszter -->
+## ⏱️ Mennyi időbe telik?
+**1-2 perc** a belépés és egy kérés leadása.
 
-<!-- KÉP HELYE: Egy sorozat oldala, ahol látszik a "Request" gomb és az évad választó (Season 1, Season 2 stb. checkboxokkal) -->
+## 📱 Mire lesz szükséged?
+- Böngésző (telefonon vagy számítógépen)
+- Az e-mail címed és jelszavad (amit a Jellyfinhez is használsz)
 
-### Gyors ikon iPhone-on
-1. Safariban nyisd meg: `https://sorozat.gyurus.hu`.
-2. Koppints a **Share** ikonra (négyzet felfelé nyíllal).
-3. Válaszd az **Add to Home Screen / Kezdőképernyőhöz** opciót.
-4. Adj nevet (pl. "Sorozat kérés"), majd koppints **Add**.
-5. Mostantól úgy működik, mint egy app ikon.
+---
 
-<!-- KÉP HELYE: iOS Share menü, ahol ki van emelve az "Add to Home Screen" opció -->
+---
 
-## Mit jelent az állapot?
+## 🚀 START - Kérés leadása
 
-Miután kértél valamit, különböző állapotokat láthatsz:
+### 1️⃣ lépés: Belépés
 
-| Állapot | Mit jelent? |
-|---------|-------------|
-| **Requested** | Bekerült a listára, vár feldolgozásra |
-| **Processing / Downloading** | Épp intézi a rendszer, töltődik le |
-| **Available** | Már nézhető a Jellyfin-ben! |
+1.  Nyisd meg a böngésződben: `https://jellyseerr.gyur.us`
+2.  Kattints a kék **Jellyfin** gombra.
 
-:::note Türelem
-Néha pár óra is lehet, mire minden elkészül (letöltés + feliratozás + könyvtár frissítés). Ha másnap sincs meg, szólj!
-:::
+![Jellyseerr belépés Jellyfin gombbal](/img/jellyseer/kep1.png)
 
-## Mikor lesz nézhető a Jellyfin-ben?
+3.  A rendszer átirányít a már ismert Jellyfin bejelentkező oldalra.
+4.  Add meg az **e-mail címedet** és **jelszavadat**, majd kattints a **Sign In** gombra.
+5.  Sikeres belépés után visszakerülsz a Jellyseerr főoldalára.
 
-- Ha a státusz **Available**, akkor már megnézheted a Jellyfin-ben.
-- Ha még nem elérhető: hagyd futni, és nézz rá később.
+---
 
-## Ha nem találod, amit keresel
+### 2️⃣ lépés: Film vagy sorozat keresése
 
-- **Próbáld angol címmel is** - a nemzetközi adatbázisban gyakran csak az eredeti cím van
-- **Nézz rá az évszámra** - remake-eknél fontos (pl. "Dune 1984" vs "Dune 2021")
-- **Ha teljesen hiányzik**: írj nekem, megnézem a beállításokat
+1.  A főoldalon látsz népszerű és felkapott alkotásokat.
+2.  A kereséshez használd a lap tetején lévő **keresőmezőt**. Kezdd el beírni a film vagy sorozat címét!
 
-:::info Példa
-Ha a "Mintaapák" nem talál semmit, próbáld: "Modern Family"
-:::
+![Jellyseerr főoldal és keresés](/img/jellyseer/kep2.png)
 
-## Asztali gép (Mac/PC)
+![Jellyseerr keresési találatok](/img/jellyseer/kep3.png)
 
-1. Chrome/Edge/Safari böngészőben nyisd meg: `https://sorozat.gyurus.hu`.
-2. Jelentkezz be Authentikkel.
-3. A felső keresőmező azonnal mutatja a találatokat gépelés közben.
-4. Kattints a címre → **Request** gomb. Sorozatnál választhatod az egész sorozatot vagy csak pár évadot.
-5. A bal oldali **Requests** menüpontban követheted az állapotot (Requested / Processing / Available).
-6. Ha egy kérés **Available**, a címre kattintva rögtön átléphetsz a Jellyfin oldalára.
+---
 
-**Tippek asztali használathoz:**
-- Tedd könyvjelzőbe vagy pineld a lapot, így egy kattintásnyira lesz.
-- Több cím keresésekor nyisd őket új lapon (Ctrl/Cmd + katt), hogy megmaradjon a lista.
-- A jobb felső értesítés ikon jelzi, ha elkészült egy kérelmed.
+### 3️⃣ lépés: Kérés elküldése
 
-## További ötletek
-- [Jellyseerr – mit tudsz csinálni?](/docs/otletek/jellyseerr-otletek): teljes sorozat kérése, részleges évad, családtag szerinti követés.
+1.  Kattints a kívánt film vagy sorozat borítójára.
+2.  Megjelenik az adatlapja. Itt kattints a **Request** (Kérés) gombra.
+
+![Film adatlapja és a Request gomb](/img/jellyseer/kep4.png)
+
+3.  Ha egy sorozatot kérsz, kiválaszthatod, hogy csak egy évadot vagy a teljes sorozatot kéred-e.
+4.  A gomb színe megváltozik, és a **"Requested"** felirat jelzi, hogy a kérésedet rögzítette a rendszer.
+
+---
+
+## ✅ KÉSZ VAGY! Mi történik ezután?
+
+-   **Türelem!** A letöltés időbe telik (pár perctől több óráig is tarthat, a mérettől és elérhetőségtől függően).
+-   A kéréseid állapotát a **Requests** menüpont alatt követheted. Itt látszik, ha a kérés "Processing" (feldolgozás alatt) vagy már "Available" (elérhető).
+
+![Kérések listája a Requests menüpontban](/img/jellyseer/kep5.png)
+
+-   Amint a státusz **"Available"**-re vált, a film vagy sorozat **automatikusan megjelenik a Jellyfinben**, és már nézheted is!
+
+![Teljesült kérés, ami már elérhető a Jellyfinben](/img/jellyseer/kep6.png)
+
+---
+
+## 💻 SZÁMÍTÓGÉPEN (Mac/Windows)
+
+A filmek és sorozatok kérése számítógépen a legkényelmesebb, mivel csak egy böngészőre van szükséged. A lépések ugyanazok, mint amiket a telefonos böngésző esetében is követnél.
+
+### Hogyan kérj filmet gépen:
+
+1.  Nyiss meg egy **böngészőt** (pl. Chrome, Edge, Safari).
+2.  Írd be a címsorba: `https://jellyseerr.gyur.us`
+3.  Kattints a kék **Jellyfin** gombra a bejelentkezéshez.
+4.  A megjelenő oldalon add meg a **Jellyfinhez használt e-mail címedet és jelszavadat**.
+5.  Böngéssz vagy keress rá a kívánt tartalomra, majd kattints a **Request** gombra.
+
+### 💡 Tippek számítógépen:
+-   A filmek/sorozatok adatlapját megnyithatod új lapon (jobb klikk → Megnyitás új lapon), így könnyebb egyszerre több mindent átnézni.
+
+---
+
+## ❌ MI A BAJA? - Gyakori hibák
+
+### Nem tudok belépni
+
+-   **Biztos, hogy beléptél már a Jellyfinbe?** Ez az első és legfontosabb lépés. Próbálj meg belépni a `https://tv.gyurus.hu` oldalon. Ha ott sikerül, a Jellyseerr-be is menni fog.
+-   **Jó jelszót adtál meg?** Ugyanaz a jelszó kell, mint a Jellyfinhez.
+
+### Kértem valamit, de nem jelenik meg a Jellyfinben
+
+-   **Ellenőrizd a státuszát!** A Jellyseerr **Requests** menüjében nézd meg, mi áll a kérés mellett.
+    -   **Pending Approval:** Még jóváhagyásra vár.
+    -   **Processing:** Folyamatban van a letöltés.
+    -   **Available:** Elérhető. Csak ekkor jelenik meg a Jellyfinben.
+-   **Ha már "Available", de mégsem látod:** Várj pár percet, amíg a Jellyfin frissíti a könyvtárát. Ha utána sem, jelezd a problémát.

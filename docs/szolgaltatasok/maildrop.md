@@ -2,89 +2,216 @@
 sidebar_position: 6
 ---
 
-# Maildrop (E-mail)
+# 📧 Email Postaláda (Regisztrációk és ideiglenes levelek)
 
 **Webcím:** [https://maildrop.gyurus.hu](https://maildrop.gyurus.hu)
 
-## Mire jó?
+## 👉 MIRE JÓ EZ?
 
-A Maildrop egy **egyszerű webes postaláda-néző**, amit jellemzően ilyenekre használunk:
+Ez egy **webes postaláda**, ahol olyan emaileket látsz, amiket ide küldenek:
 
-- Regisztrációk / egyszeri kódok (pl. megerősítő e-mail)
-- Fájlok/értesítések átvétele
-- Olyan e-mailek, amiket nem akarsz a fő postaládádban
+✅ **Regisztrációs kódok** megerősítéshez  
+✅ **Értesítések** különböző oldalakról  
+✅ **Fájlok átvétele** email mellékletként  
+✅ **Olyan emailek**, amiket nem akarsz a fő postaládádban
 
-:::note Megjegyzés
-Hogy pontosan milyen e-mailek jönnek ide, az attól függ, mire lett beállítva. Ha kérdésed van, szólj!
-:::
+**Fontos:** Attól függ, milyen emailek jönnek ide, hogy mire lett beállítva. Ha kérdésed van, kérdezz rá!
 
-## iOS (telefon/tablet)
+⏱️ **Mennyi idő?** 1-2 perc  
+📱 **Mire lesz szükség?** iPhone/iPad vagy számítógép  
+📶 **Internet:** Otthonról is, kintről is működik  
+🔑 **Jelszó:** Ugyanaz, mint a többi családi szolgáltatásnál
 
-1. Nyisd meg Safariban: **[https://maildrop.gyurus.hu](https://maildrop.gyurus.hu)**.
-2. Jelentkezz be **Authentik** adatokkal (e-mail + jelszó).
-3. A postaládában koppints a levél tárgyára.
-4. Olvasd el a tartalmat, a kódokat duplán koppintva kijelölheted.
+---
 
-:::tip Mire lesz szükséged?
-- iPhone/iPad internetkapcsolattal
-- Authentik felhasználó
-:::
+## 🚀 START - HÁROM LÉPÉS
 
-### Frissítés (ha nem látod a legújabb levelet)
+### 1️⃣ Nyisd meg a weboldalt
 
-- Próbáld meg az oldalt frissíteni: Safari-ban húzd le az oldalt, vagy koppints a frissítés ikonra.
-- Várj 1-2 percet, mert néha késik a levél.
+**iPhone/iPad-en:**
+1. Nyisd meg a **Safari** böngészőt
+2. Írd be a címsorba: `https://maildrop.gyurus.hu`
+3. Nyomd meg: **Go / Ugrás**
 
-<!-- KÉP HELYE: Maildrop bejövő levelek listája, látszik a tárgy és a dátum oszlopok -->
+**Számítógépen:**
+1. Nyiss meg egy böngészőt: **Chrome, Safari, Edge**
+2. Írd be a címsorba: `https://maildrop.gyurus.hu`
+3. Nyomd meg: **Enter**
 
-### Ha van melléklet
+### 2️⃣ Lépj be
+
+1. Megjelenik a bejelentkező oldal
+2. Írd be az **e-mail címedet** és **jelszavadat** (ugyanaz, mint a többi szolgáltatásnál)
+3. Koppints/kattints: **Belépés / Sign in**
+
+![IMAGE PLACEHOLDER 1: Maildrop bejelentkezés
+- Screen: Authentik bejelentkező oldal Safari-ban iPhone-on
+- Highlight: Email és jelszó mezők piros kerettel
+- Show: "Sign in" / "Belépés" gomb, címsorban: maildrop.gyurus.hu]
+
+### 3️⃣ Olvasd el a leveleket
+
+1. Megjelenik a **beérkezett levelek listája**
+2. **Koppints/kattints** a levél tárgyára (pl. "Megerősítő kód")
+3. A levél megnyílik → olvasd el a tartalmat
+4. Ha van **kód** benne → **dupla koppintással** kijelölheted és kimásolhatod
+
+![IMAGE PLACEHOLDER 2: Levelek listája
+- Screen: Maildrop inbox, levelek listája
+- Highlight: Egy levél tárgya (Subject) piros kerettel
+- Show: Dátum oszlop, feladó, tárgy látható sorok]
+
+![IMAGE PLACEHOLDER 3: Levél megnyitva
+- Screen: Egy megnyitott email Maildrop-ban
+- Highlight: Email tartalma, ha van kód benne (pl. "123456"), az piros kerettel
+- Show: Feladó, tárgy, dátum fejléc]
+
+---
+
+## ✅ KÉSZ VAGY! MIT FOGSZ LÁTNI?
+
+A **postaládában** egy listát látsz, minden levél egy sor:
+
+📅 **Dátum** → mikor érkezett  
+👤 **Feladó** → ki küldte (pl. "noreply@weboldal.com")  
+📝 **Tárgy** → miről szól (pl. "Regisztrációs kód")
+
+**Koppintva megnyílik a levél**, és látod a teljes tartalmat.
+
+---
+
+## 💡 TIPPEK
+
+### Ha nem látod a legújabb levelet
+
+Az email néha **1-2 percet késhet**. Próbáld meg **frissíteni** az oldalt:
+
+**iPhone/iPad-en:**
+- Húzd le az oldalt (swipe down)
+- Vagy koppints a címsorra, majd **frissítés ikon** (körbe forgó nyíl)
+
+**Számítógépen:**
+- Nyomd meg: **F5** (Windows) vagy **Command+R** (Mac)
+- Vagy kattints a böngésző frissítés ikonjára
+
+### Ha van melléklet (pl. PDF)
 
 1. Nyisd meg a levelet
-2. Keresd a **Download / Letöltés** gombot a mellékletnél
-3. Ha el akarod menteni: **Share** -> **Save to Files**
+2. Görgess le → látni fogod a **mellékletet** (pl. "dokumentum.pdf")
+3. Koppints/kattints a **Download / Letöltés** gombra
+4. **iPhone/iPad-en:** Share → **Save to Files** (mentés Fájlokba)
+5. **Számítógépen:** Automatikusan letöltődik a Letöltések mappába
 
-<!-- KÉP HELYE: Egy levél megnyitva, ahol látszik a "Download attachment" gomb egy PDF mellékletnél -->
+![IMAGE PLACEHOLDER 4: Melléklet letöltése
+- Screen: Megnyitott email melléklettel
+- Highlight: "Download" / "Letöltés" gomb a melléklet mellett piros kerettel
+- Show: PDF ikon, fájlnév (pl. "szamla.pdf")]
 
-### Gyors ikon a kezdőképernyőn
+### Gyors ikon a telefonon (iPhone/iPad)
 
-Ha sokat használod, kiteheted ikonként:
+Ha **gyakran használod**, kiteheted ikonként a kezdőképernyőre (mint egy app):
 
-1. Nyisd meg Safariban: `https://maildrop.gyurus.hu`
-2. Koppints a **Share ikonra** (a négyzet felfelé nyíllal)
-3. Válaszd: **Add to Home Screen / Hozzáadás a kezdőképernyőhöz**
-4. Adj nevet (pl. "Maildrop")
+1. Nyisd meg Safari-ban: `https://maildrop.gyurus.hu`
+2. Koppints a **Share ikonra** (négyzet felfelé nyíllal, alul középen)
+3. Görgess le és válaszd: **Add to Home Screen** (Hozzáadás a kezdőképernyőhöz)
+4. Adj nevet (pl. "Email")
 5. Koppints: **Add / Hozzáadás**
 
-<!-- KÉP HELYE: iOS Share menü, ahol látszik az "Add to Home Screen" opció kiemelve -->
+![IMAGE PLACEHOLDER 5: Add to Home Screen
+- Screen: Safari Share menü iPhone-on
+- Highlight: "Add to Home Screen" opció piros kerettel
+- Context: Látszik a megosztás menü többi opciója]
 
-## Ha nem jön meg az e-mail
+**Ezután:** A kezdőképernyőn lesz egy ikon, amit megnyitva rögtön a postaládában vagy!
 
-:::caution Ellenőrizd ezeket:
-1. **Frissíts**: húzd le a listát vagy nyomj egy frissítés gombot
-2. **Várj 1-2 percet**: néha késik
-3. **Ellenőrizd a címet**: biztosan jó címre lett küldve?
-:::
+---
 
-### Ha fontos (pl. egyszeri kód)
+## ❌ MI A BAJA?
 
-Ha fontos e-mail nem érkezik meg (pl. regisztrációs kód):
-1. Várj pár percet
-2. Ha még mindig nincs: szólj nekem
-3. Megnézem a **szerver naplóit**, hátha ott van a válasz
+### Nem jön meg az email, amit várok
 
-:::info Segítség
-Ha gyakran előfordul, hogy nem jönnek meg a levelek, jelezd, és megnézem a beállításokat!
-:::
+**Próbáld ezt:**
+1. **Frissítsd az oldalt** (húzd le vagy nyomd meg F5 / Command+R)
+2. **Várj 2-3 percet** → az emailek néha késnek
+3. **Ellenőrizd:** biztosan jó email címre lett küldve?
+4. Nézd meg a **Spam / Lomtár** mappát (ha van)
 
-## Asztali gép (Mac/PC)
+**Ha fontos email (pl. regisztrációs kód):**
+- Várj 5 percet
+- Ha még mindig nincs → jelezd, megnézem a szerver naplókat
 
-1. Chrome/Edge/Safari böngészőben nyisd meg: `https://maildrop.gyurus.hu`.
-2. Jelentkezz be Authentikkel.
-3. Bal oldalt látod a leveleket; kattints a tárgyra a megnyitáshoz.
-4. Mellékletet a **Download** gombbal tölthetsz le, kódokat a tetején találsz.
-5. Az ideiglenes címet a postaláda neve melletti **Copy address** gombbal másolhatod.
-6. Frissítés: böngésző ikonja vagy `Ctrl/Cmd + R` – fontos, ha kódot vársz.
+### "Cannot connect" / nem tölt be
 
-**Tippek asztali módhoz:**
-- Több levélhez használj `Ctrl/Cmd + kattintás`-t új fülön.
-- Pineld a lapot vagy add könyvjelzőhöz a gyors eléréshez.
+**Próbáld ezt:**
+1. Ellenőrizd: van internet kapcsolatod? (Wi-Fi vagy mobil)
+2. Próbáld újra betölteni az oldalt (frissítés)
+3. Zárd be a böngészőt és nyisd meg újra
+4. Ha továbbra sem megy → próbáld másik böngészőből (pl. Chrome helyett Safari)
+
+### "Session expired" / Jelentkezz be újra
+
+**Próbáld ezt:**
+1. Egyszerűen lépj be újra: írd be az email címedet és jelszavadat
+2. Ez néha előfordul, ha sokáig nyitva volt az oldal
+
+### Nem tudom kimásolni a kódot
+
+**Próbáld ezt:**
+1. **Dupla koppintás** a kódon (pl. "123456")
+2. Megjelenik a kijelölés (kék háttér)
+3. Koppints: **Copy / Másolás**
+4. Most beillesztheted máshova (long press → **Paste / Beillesztés**)
+
+---
+
+## 💻 SZÁMÍTÓGÉPEN HASZNÁLOD?
+
+A számítógépen **ugyanúgy működik**, csak böngészőben:
+
+### Belépés számítógépen
+
+1. Nyiss meg egy böngészőt: **Chrome, Safari, Edge**
+2. Írd be: `https://maildrop.gyurus.hu`
+3. Jelentkezz be az email címeddel és jelszavaddal
+
+![IMAGE PLACEHOLDER 6: Maildrop böngészőben
+- Screen: Chrome/Safari böngészőben Maildrop bejelentkező oldal
+- Highlight: Email és jelszó mezők piros kerettel
+- Show: Címsorban: https://maildrop.gyurus.hu]
+
+### Levelek olvasása
+
+- **Bal oldalt** látod a levelek listáját
+- **Kattints** egy levélre → megnyílik **jobb oldalt** vagy új fülön
+- **Melléklet letöltése:** kattints a **Download** gombra
+- **Frissítés:** **F5** (Windows) vagy **Command+R** (Mac)
+
+![IMAGE PLACEHOLDER 7: Maildrop desktop nézet
+- Screen: Maildrop weboldal számítógépen, kétoszlopos layout
+- Highlight: Bal oldali levelek listája és jobb oldali email tartalom piros kerettel
+- Show: Melléklet download gomb]
+
+### Hasznos tippek számítógépen
+
+**Könyvjelző:**
+- Nyomd meg: **Command+D** (Mac) vagy **Ctrl+D** (Windows)
+- Adj nevet (pl. "Email") és mentsd el
+- Így gyorsan eléred később
+
+**Új fülön megnyitás:**
+- **Command + kattintás** (Mac) vagy **Ctrl + kattintás** (Windows)
+- Több levelet tudsz egyszerre megnézni
+
+---
+
+## 📖 HASZNOS KIFEJEZÉSEK
+
+| Magyar | Angol | Mit jelent? |
+|--------|-------|-------------|
+| Postaláda | Inbox | Ahol a beérkezett emailek vannak |
+| Tárgy | Subject | Az email címe / témája |
+| Feladó | Sender / From | Ki küldte az emailt |
+| Melléklet | Attachment | Fájl, ami csatolva van (PDF, kép) |
+| Letöltés | Download | Fájl mentése a gépre/telefonra |
+| Frissítés | Refresh | Oldal újratöltése (új emailek megjelennek) |
+| Másolás | Copy | Szöveg kimásolása |
