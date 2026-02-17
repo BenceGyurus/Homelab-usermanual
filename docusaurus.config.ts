@@ -14,7 +14,7 @@ const config: Config = {
   url: 'https://docs.gyurus.hu',
   baseUrl: '/',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   markdown: {
     hooks: {

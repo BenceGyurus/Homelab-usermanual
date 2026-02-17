@@ -309,11 +309,3 @@ Nincs szükség újraszkennelésre!
 
 ---
 
-## 🎯 TOVÁBBI LEHETŐSÉGEK
-
-Ha kíváncsi vagy a részletekre:
-- [Dokumentumok - Tippek és trükkök](/docs/otletek/paperless-otletek) (ha van ilyen oldal)
-  - Automatikus címkézés
-  - Email import
-  - Workflow beállítás
-
